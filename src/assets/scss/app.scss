@@ -71,3 +71,40 @@
 .menu{
 	font-size: 1.3rem;
 }
+
+#body{
+	
+	height: 100%;
+	width: 100%;
+
+    //for Firefox 
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+
+    //for Safari and Chromium 
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+
+    //W3C 
+    display: box;
+    box-pack: center;
+    box-align: center;
+}
+
+#box{
+	background-color: grey;
+	height: 100%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+#nav-img a{
+	padding: 0;
+}
+
+#nav-main-text a{
+	padding: 0;
+	color: black;
+}
