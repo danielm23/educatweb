@@ -91,7 +91,8 @@
 }
 
 #main-container{
-	background: #eeeeee;
+	background: #eee;
+	padding-top: 2rem;
 }
 
 #nav-container{
@@ -100,4 +101,27 @@
 
 #body{
 	height: calc(100% - 78px);
+}
+
+.img_mainPage{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.secondRow{
+	margin-top: 2rem;
+}
+
+.img_mainPage_secondRow{
+	max-width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mainPage_item{
+	background: #F4F4F4;
+	padding: 1rem;
+	height: 100%;
 }
