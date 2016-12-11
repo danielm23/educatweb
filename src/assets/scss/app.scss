@@ -81,6 +81,42 @@
     background: #000;
 }
 
+#side{
+	height: 100%;
+	position: realtive;
+}
+
+#body{
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+#box{
+	height: 100%;
+}
+
+#main-container{
+	background: #eee;
+	min-height: 100%;
+}
+
+#main-inner-container{
+	padding-top: 5rem;	//dynamically updated by jQuery
+}
+
+#content-container{
+	padding-top: 2rem;
+}
+
+#nav-container{
+	background: $topbar-background;
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+}
+
 #nav-img a{
 	padding: 0;
 }
@@ -88,19 +124,6 @@
 #nav-main-text a{
 	padding: 0;
 	color: black;
-}
-
-#main-container{
-	background: #eee;
-	padding-top: 2rem;
-}
-
-#nav-container{
-	background: $topbar-background;
-}
-
-#body{
-	height: calc(100% - 111px);
 }
 
 .img_mainPage{
