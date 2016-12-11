@@ -1,11 +1,5 @@
 $(document).foundation();
 
-//if ($(window).height() >= $(document).height()) {
-//    if ($(window).width() > 640) { //if not grid-stacked
-//        $("#main-container").height($("#body").height());
-//    }
-//}
-
 jQuery(document).ready(function() {
     setTimeout(function() {
         if ($(window).width() > 640) { //if not grid-stacked
@@ -27,11 +21,6 @@ jQuery(document).ready(function() {
 
 
 $(window).resize(function () {
-    //if ($(window).height() >= $(document).height()) {   //known bug: .height() not yet updated when .resize() is called -> when shrinked, height is to big
-    //    if ($(window).width() > 640) {
-    //        $("#main-container").height($("#body").height());
-    //    }
-    //}
     if ($(window).width() > 640) { //if not grid-stacked
         var navHeight = $("#nav-container").height();
         $("#main-inner-container").css("padding-top", navHeight);
