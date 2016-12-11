@@ -33,6 +33,7 @@ $(window).resize(function () {
     //    }
     //}
     if ($(window).width() > 640) { //if not grid-stacked
+        var navHeight = $("#nav-container").height();
         $("#main-inner-container").css("padding-top", navHeight);
     }
 });
