@@ -45,15 +45,19 @@
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
-$foundation-palette: ( primary: #dd4124, secondary: #2199e8, success: #3adb76, warning: #ffae00, alert: #ec5840, );
+$foundation-palette: ( primary: #f44336, secondary: #2199e8, success: #3adb76, warning: #ffae00, alert: #ec5840, );
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
-$body-background: $white;
+$green400: #9ccc65;
+$green100: #f1f8e9;
+$iconColor: #752864;
+$body-background: #e9ebee;
 $body-font-color: $black;
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700|Caveat');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 $body-font-family: 'Roboto',
 'Helvetica Neue',
 Helvetica,
@@ -493,7 +497,7 @@ $tooltip-radius: $global-radius;
 // 36. Top Bar
 // -----------
 $topbar-padding: 0.5rem;
-$topbar-background: #9ccc65;
+$topbar-background: $green400;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 1rem;
 $topbar-input-width: 200px;

@@ -45,6 +45,13 @@
 // @include foundation-flex-classes;
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+
 .hero {
     background: no-repeat center center;
     background-size: cover;
@@ -97,36 +104,37 @@
 	height: 100%;
 }
 
-#main-container{
-	background: #eee;
+#mainContainer{
+	background: #fff;
 	min-height: 100%;
 }
 
-#main-inner-container{
+#mainInnerContainer{
 	padding-top: 5rem;	//dynamically updated by jQuery
 }
 
-#content-container{
+#contentContainer{
 	padding-top: 2rem;
+	padding-left: 2em;
 }
 
-#nav-container{
+#navContainer{
 	background: $topbar-background;
 	position: absolute;
 	z-index: 2;
 	width: 100%;
 }
 
-#nav-img a{
+#nav_img a{
 	padding: 0;
 }
 
-#nav-main-text a{
+#navMainText a{
 	padding: 0;
 	color: black;
 }
 
-.img_mainPage{
+.vertCent{
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
@@ -136,7 +144,7 @@
 	margin-top: 2rem;
 }
 
-.img_mainPage_secondRow{
+.mainPage_secondRow_img{
 	max-width: 80%;
 	display: block;
 	margin-left: auto;
@@ -144,7 +152,44 @@
 }
 
 .mainPage_item{
-	background: #F4F4F4;
+	background: #F8F8F8;
 	padding: 1rem;
 	height: 100%;
+	border: 1px solid #f1f1f1;
+}
+
+.mainPage_item h3{
+	font-family: 'Caveat', cursive;
+}
+
+h1{
+	font-family: 'Caveat', cursive;
+    text-align: center;
+}
+
+#veraNext_h p{
+	font-size: 200%;
+	text-align: center;
+}
+
+#veraNext_h i{
+	color: $iconColor;
+}
+
+#veraNextContent{
+	font-size: 150%;
+}
+
+#nextEvents{
+	margin-top: 3em;
+	background-color: $green100;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.eventPage_item{
+	background: #F8F8F8;
+	padding: 1rem;
+	height: 100%;
+	border: 1px solid #f1f1f1;
 }
