@@ -175,6 +175,11 @@ h1{
 	font-size: 420%;
 }
 
+#sideHeader{
+	margin-bottom: 0.5em;
+	color: $accent3;
+}
+
 #veraNext_h p{
 	font-size: 200%;
 	text-align: center;
@@ -189,7 +194,6 @@ h1{
 }
 
 #nextEvents{
-	margin-top: 3em;
 	background-color: $green100;
 	padding-top: 1em;
 }
@@ -236,6 +240,13 @@ h1{
 	color: $iconColor;
 	font-family: 'Caveat', cursive;
 	font-size: 380%;
+	padding-left: 0.2em;
+}
+
+.eventPageBig_item_h2{
+	color: $accent4;
+	font-family: 'Caveat', cursive;
+	font-size: 180%;
 	padding-left: 0.2em;
 }
 

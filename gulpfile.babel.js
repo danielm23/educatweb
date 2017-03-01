@@ -99,6 +99,7 @@ function javascript() {
     .pipe($.sourcemaps.init())
     .pipe($.babel())
     .pipe($.concat('app.js'))
+    .pipe($.concat('stringres.js'))
     .pipe($.if(PRODUCTION, $.uglify()
       .on('error', e => { console.log(e); })
     ))
