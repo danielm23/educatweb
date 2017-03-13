@@ -90,7 +90,7 @@
 
 #side{
 	height: 100%;
-	position: realtive;
+	position: relative;
 }
 
 #body{
@@ -117,6 +117,9 @@
 	padding-top: 2rem;
 	padding-left: 2em;
 	position: relative;
+    @media screen and (max-width: $large) {
+        padding-right: 2em;
+        }
 }
 
 #navContainer{
@@ -136,9 +139,11 @@
 }
 
 .vertCent{
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+    @media screen and (min-width: $large) {
+	    position: relative;
+	    top: 50%;
+	    transform: translateY(-50%);
+        }
 }
 
 .followingRow{
@@ -161,7 +166,7 @@
 .mainPage_item{
 	background: #F8F8F8;
 	padding: 1rem;
-	height: 100%;
+	//height: 100%;
 	//border: 1px solid #f1f1f1;
 }
 
@@ -301,4 +306,10 @@ h1{
 
 .followingTeamRow{
 	padding-top: 2em;
+}
+
+.largeSameRow{
+    @media screen and (max-width: $medium) {
+	    padding-bottom: 2em;
+        }
 }

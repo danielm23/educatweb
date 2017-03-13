@@ -10,7 +10,6 @@
 	"navTeamWork": "Mitarbeiten",
 	"navGuildH": "Verein",
 	"navContactH": "Kontakt",
-	"navMenu": "Menü",
 	//Main side
 	"indexHeader1": "Osterfreizeit 2017",
     "indexItem1": "In der Woche vor Ostern, vom 10. bis 13. April wollen wir auf die Burg Derneck fahren. Dort wohnen wir in der wunderschönen Burghütte, die allerhand Platz für gemeinsame Aktivitäten innen und außen bereit hält. Das Haus ist sehr schön gelegen, hat gemütliche Schlafräume, eine große Küche lädt zum kochen ein und ist der ideale Platz, um viele spannende Tage zu verbringen.<br />Weitere Informationen und Anmeldungen finden sich <a href='ostern2017.html'>hier</a>.",
