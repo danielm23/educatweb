@@ -1,4 +1,4 @@
-@charset 'utf-8';
+﻿@charset 'utf-8';
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
@@ -214,7 +214,7 @@ h1{
 	border: 1px solid #f1f1f1;
 }
 
-#eventPageBig_mainImg{
+.eventPageBig_mainImg{
 	width: 100%;
 	padding-top: 1em;
 	padding-bottom: 2em;
@@ -223,7 +223,7 @@ h1{
 .eventPageBig_item{
 	background: #F8F8F8;
 	padding: 1rem;
-	height: 100%;
+	//height: 100%;
 	//border: 1px solid #f1f1f1;
 }
 
@@ -263,7 +263,7 @@ h1{
 
 .googlemaps{
 	 width: 100%;
-	 height: 100%;
+	 //height: 100%;
 	 frameborder: 0;
 	 border: 0; 
 }
@@ -305,11 +305,18 @@ h1{
 }
 
 .followingTeamRow{
-	padding-top: 2em;
+    @media screen and (min-width: $large){
+	    padding-top: 2em;
+    }
 }
 
 .largeSameRow{
     @media screen and (max-width: $medium) {
 	    padding-bottom: 2em;
         }
+}
+
+.centerImg{
+    display: block;
+    margin: 0 auto;
 }
