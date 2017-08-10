@@ -295,7 +295,7 @@ h1{
 
 .teamName{
 	text-align: center;
-	text-size: 150%;
+	font-size: 150%;
 	font-weight: bold;
 	padding-top: 1em;
 }
@@ -323,4 +323,14 @@ h1{
 
 .centerText{
     text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.error{
+    color: red;
+    text-align: center;
+    font-size: 150%;
 }
