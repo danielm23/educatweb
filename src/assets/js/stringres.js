@@ -13,7 +13,7 @@
 	"navContactH": "Kontakt/Impressum",
 	//Main side
 	"indexHeader1": "Science Camp 2017",
-	"indexItem1": "Erfinder erfinden. Das weiß jedes Kind. Wir wollen den \"Tüftlern und Erfinderinnen\" näher auf die Spur gehen. Von dampfenden Maschinen über selbstständige Roboter bis zu schwimmenden Autos wollen wir die Welt der Technik besser verstehen. Und eigene Autos, Maschinen oder auch eine rießige Murmelbahn bauen.<br/>Weitere Informationen gibt es <a href='/veranstaltungen/sciencecamp'>hier</a>. Da bereits alle Plätze belegt sind, ist eine Anmeldung nur noch auf die Warteliste möglich.",
+	"indexItem1": "Bei bestem Wetter ging die erste Woche des Science Camps viel zu schnell vorbei. Es wurde gelötet, gebacken und gebaut, wir haben dem Dornier Museum in Friedrichshafen einen Besuch abgestattet und im Bodensee gebadet. <br>Bei hoffentlich weiter so schönem Wetter freuen wir uns auf die zweite Woche Science Camp!",
 	"indexHeader2": "Vorbereitungswochenende Science Camp",
 	"indexItem2": "Vom 23. bis 25. Juni waren wir zur Vorbereitung des Science Camps in Stetten bei Niederstotzingen. Neben vielen inhaltlichen Planungen haben wir auch mit dem gesamten Team die Skihütte in Weiler besucht. Wir freuen uns alle auf den Sommer!",
 	"indexHeader3": "Mitgliederversammlung",
@@ -178,6 +178,8 @@
 	"scItem7Str": "Kreisjugendring Göppingen e.V.",
     "scItem8Header": "Gefördert durch",
     "scItem8Str": "Stiftung Kinderland Baden-Württemberg",
+    "scItemCurrentStr1": "Die erste Woche des Science Camps ist vorbei! Bei bestem Wetter hatten alle Kinder und wir eine Menge Spaß. Wir freuen uns auf die zweite Woche!",
+    "scItemCurrentStr2": "Bilder des Camps veröffentlichen wir in einem passwortgeschütztem Bereich nach dem Camp. Wir melden uns per Mail bei ihnen.",
     //Science Camp Infos
     "scinfoHeader": "Science Camp 2017 - Informationen",
     "scinfoItem1Header": "Busshuttle",
