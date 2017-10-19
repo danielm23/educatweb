@@ -17,8 +17,13 @@ for (var i = 0; i < resElements.length; i++) {
         }
     }
 }
+
+$('.slide-container').on('setPosition', function () {
+    resizeSlickSlider();
+});
+
 jQuery(document).ready(function () {
-    setTimeout(function() {
+    setTimeout(function () {
         if ($(window).width() > 640) { //if not grid-stacked
             var navHeight = $("#nav-container").height();
             if (navHeight != 0) {
@@ -35,6 +40,15 @@ jQuery(document).ready(function () {
         }
     }, 2000);
 
+    //check if exist
+    if ($(".slickSc17").length) {
+        addPhotosToSlider();
+    }
+
+    //check if exist
+    if ($("#forwardEventArchive").length) {
+        setTimeout(function () { location.href = "archiv.html" }, 0);
+    }
 });
 $(document).foundation();
 
@@ -43,7 +57,78 @@ $(window).resize(function () {
         var navHeight = $("#nav-container").height();
         $("#main-inner-container").css("padding-top", navHeight);
     }
+    resizeSlickSlider();
 });
+
+function addPhotosToSlider() {
+    $.get("sc17Photos/Woche1/", function (data) {
+        var photos = $(".photos1");
+        var newPhotoUl = document.createElement("ul");
+        var imgs = new Array();
+        $(data).find("td > a").each(function () {
+            imgs.push($(this).attr("href"));
+        });
+
+        for (var i = 1; i < imgs.length; i++) {
+            var newPhotoLi = document.createElement("li");
+            var newPhoto = document.createElement("img");
+            newPhoto.setAttribute("src", "sc17Photos/Woche1/" + imgs[i]);
+            newPhotoLi.append(newPhoto);
+            newPhotoUl.append(newPhotoLi);
+        }
+        photos.append(newPhotoUl);
+
+        $(".photos1").tiksluscarousel({
+            width: 1000,
+            height: 500,
+            nav: 'thumbnails',
+            current: 1,
+            type: 'slide',
+            autoplayInterval: 10000
+        });
+        /*$('.photos1').slick({
+            "slidesToShow": 2,
+            "slidesToScroll": 1,
+            "focusOnSelect": true,
+            "infinite": false,
+            "adaptiveHeight": true
+        });*/
+    });
+
+    $.get("sc17Photos/Woche2/", function (data) {
+        var photos = $(".photos2");
+        var newPhotoUl = document.createElement("ul");
+        var imgs = new Array();
+        $(data).find("td > a").each(function () {
+            imgs.push($(this).attr("href"));
+        });
+
+        for (var i = 1; i < imgs.length; i++) {
+            var newPhotoLi = document.createElement("li");
+            var newPhoto = document.createElement("img");
+            newPhoto.setAttribute("src", "sc17Photos/Woche2/" + imgs[i]);
+            newPhotoLi.append(newPhoto);
+            newPhotoUl.append(newPhotoLi);
+        }
+        photos.append(newPhotoUl);
+
+        $(".photos2").tiksluscarousel({
+            width: 1000,
+            height: 500,
+            nav: 'thumbnails',
+            current: 1,
+            type: 'slide',
+            autoplayInterval: 10000
+        });
+        /*$('.slickphotos2').slick({
+            "slidesToShow": 2,
+            "slidesToScroll": 1,
+            "focusOnSelect": true,
+            "infinite": false,
+            "adaptiveHeight": true
+        });*/
+    });
+}
 
 function addSignupField() {
     var container = document.getElementById("moreInputContainer");
@@ -119,15 +204,40 @@ function addSignupField() {
     container.appendChild(newShirtElementRow);
 }
 
+function addSignupFieldWC() {
+    var container = document.getElementById("moreInputContainer");
+    numberOfAdds++;
+    var newElement = document.getElementById("dataInputChild").cloneNode(true);
+    newElement.id = "";
+    for (var i = 0; i < 3; i++) {
+        var subElement = newElement.children[i].children[1];
+        var inputElement = document.createElement("input");
+        inputElement.type = subElement.type;
+        inputElement.name = subElement.name + numberOfAdds;
+        inputElement.placeholder = subElement.placeholder;
+        newElement.children[i].removeChild(subElement);
+        newElement.children[i].appendChild(inputElement);
+    }
+    var subElementG = newElement.children[3].children[1];
+    var selectElementG = document.createElement("select");
+    selectElementG.name = subElementG.name + numberOfAdds;
+    selectElementG.appendChild(subElementG.children[0]);    //this is a move, not a copy!
+    selectElementG.appendChild(subElementG.children[0]);
+    newElement.children[3].removeChild(subElementG);
+    newElement.children[3].appendChild(selectElementG);
+
+    container.appendChild(newElement);
+}
+
 function submitSignup(event) {
     event.preventDefault();
 
     var data = getSignupData();
 
-    if (!validShuttleEarly(data.shuttle, data.fruehbetreuung)) {
+    /*if (!validShuttleEarly(data.shuttle, data.fruehbetreuung)) {
         document.getElementById("checkboxInvalid").classList = "row";
         return false;
-    }
+    }*/
     if (!validEmail(data.mail)) {
         document.getElementById("mailInvalid").classList = "row";
         return false;
@@ -145,7 +255,7 @@ function submitSignup(event) {
             document.getElementById("signupFinished").classList = null;
             return;
         };
-        
+
         var encoded = Object.keys(data).map(function (m) {
             return encodeURIComponent(m) + "=" + encodeURIComponent(data[m])
         }).join("&")
@@ -168,7 +278,7 @@ function validShuttleEarly(shuttle, early) {
 }
 
 function getSignupData() {
-    var inputElements = document.getElementById("signup").elements; 
+    var inputElements = document.getElementById("signup").elements;
     var inputFields = Object.keys(inputElements).map(function (m) {
         if (inputElements[m].name !== undefined) {
             return inputElements[m].name;
@@ -196,4 +306,14 @@ function getSignupData() {
     });
 
     return data;
+}
+
+function resizeSlickSlider() {
+    $slickSlider = $('.slide-container');
+    $slickSlider.find('.slick-slide').height('auto');
+
+    var slickTrack = $slickSlider.find('.slick-track');
+    var slickTrackHeight = $(slickTrack).height();
+
+    $slickSlider.find('.slick-slide').css('height', slickTrackHeight + 'px');
 }

@@ -1,0 +1,112 @@
+<div id="side">
+    {{> navigation}}
+    <div id="body">
+        <div id="boxWC">
+            <div class="row" id="mainContainerWC">
+                <div id="mainInnerContainer">
+                    <div class="row" id="contentContainer">
+                        <div class="large-10 large-centered columns">
+                            <h1 id="sideHeaderWC" data-res="wcanmeldungHeader"></h1>
+                            <div class="row eventPageBig_item wcItem shadowBig">
+                                <div class="large-12 columns">
+                                    <p data-res="wcanmeldungItem1Str1" />
+                                    <p data-res="wcanmeldungItem1Str2" />
+                                </div>
+                            </div>
+                            <div class="row eventPageBig_item wcItem followingRow">
+                                <form id="signup" method="POST" action="https://script.google.com/macros/s/AKfycbwSX3e-NVkb0Uz_YWdpuI2leEITFVdki0ycnQ4SVhMKmujUdDgV/exec">
+                                    <div class="row" id="dataInputChild">
+                                        <div class="large-4 small-12 columns">
+                                            <label>Vorname</label>
+                                            <input name="name" type="text" placeholder="Vorname des Kindes">
+                                        </div>
+                                        <div class="large-4 small-12 columns">
+                                            <label>Nachname</label>
+                                            <input name="nachname" type="text" placeholder="Nachname des Kindes">
+                                        </div>
+                                        <div class="large-2 small-12 columns">
+                                            <label>Geburtstag</label>
+                                            <input name="geburtstag" type="text" placeholder="Geburtstag">
+                                        </div>
+                                        <div class="large-2 small-12 columns">
+                                            <label>Geschlecht</label>
+                                            <select name="geschlecht">
+                                                <option value="w">Weiblich</option>
+                                                <option value="m">Männlich</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-4 small-12 columns">
+                                            <label>Straße</label>
+                                            <input name="straße" type="text" placeholder="Straße">
+                                        </div>
+                                        <div class="large-2 small-12 columns">
+                                            <label>Hausnummer</label>
+                                            <input name="hausnummer" type="text" placeholder="Hausnummer">
+                                        </div>
+                                        <div class="large-2 small-12 columns">
+                                            <label>PLZ</label>
+                                            <input name="plz" type="text" placeholder="PLZ">
+                                        </div>
+                                        <div class="large-4 small-12 columns">
+                                            <label>Ort</label>
+                                            <input name="ort" type="text" placeholder="Ort">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-4 small-12 columns">
+                                            <label>Name Erziehungsberechtigte/r</label>
+                                            <input name="eltern" type="text" placeholder="Name">
+                                        </div>
+                                        <div class="large-4 small-12 columns">
+                                            <label>E-Mail</label>
+                                            <input name="mail" type="email" placeholder="Mailadresse">
+                                        </div>
+                                        <div class="large-4 small-12 columns">
+                                            <label>Telefon</label>
+                                            <input name="telefon" type="tel" placeholder="Telefon">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-6 small-12 columns">
+                                            <label>Angaben zu Besonderheiten beim Essen, Allergien, etc.</label>
+                                            <textarea name="allergien"></textarea>
+                                        </div>
+                                        <div class="large-6 small-12 columns">
+                                            <label>Uns ist es ein Anliegen, dass sich alle wohlfühlen. Was braucht es dafür?</label>
+                                            <textarea name="wünsche" placeholder="Wünsche, Ideen, Fragen"></textarea>
+                                        </div>
+                                    </div>
+                                    <div id="moreInputContainer" moreSignups="0">
+
+                                    </div>
+                                    <div class="row hidden" id="mailInvalid">
+                                        <div class="large-12 columns">
+                                            <p class="error">E-Mail Adresse ist nicht valid!</p>
+                                        </div>
+                                    </div>
+                                    <div class="row" id="controlInput">
+                                        <div class="large-6 columns">
+                                            <a href="#controlInput" id="moreSignup" onclick="addSignupFieldWC()">weiteres Geschwisterkind</a>
+                                        </div>
+                                        <div class="large-6 columns">
+                                            <input type="submit" value="Abschicken">
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="hidden" id="signupClicked">
+                                    <p>Anmeldung abgeschickt. Sobald die Daten erfolgreich eingegangen sind, wird automatisch eine EMail an die eingetragene Adresse geschickt.</p>
+                                </div>
+                                <div class="hidden" id="signupFinished">
+                                    <p>Anmeldung eingegangen. Sie sollten innerhalb weniger Minuten eine automatische EMail erhalten.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{> footer}}

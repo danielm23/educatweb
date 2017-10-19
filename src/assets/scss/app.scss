@@ -104,8 +104,18 @@
 	height: 100%;
 }
 
+#boxWC{
+	height: 100%;
+    background-image: linear-gradient(to top, #e9ebee 0%, #214f8f 40%, #0e1e6b 60%, #041269 80%, black 95%);
+}
+
 #mainContainer{
 	background: #fff;
+	min-height: 100%;
+}
+
+#mainContainerWC{
+	background: rgba(0, 31, 69, 0.85);
 	min-height: 100%;
 }
 
@@ -127,6 +137,10 @@
 	position: absolute;
 	z-index: 2;
 	width: 100%;
+}
+
+#stickyNavContainer{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .8);
 }
 
 #nav_img a{
@@ -185,6 +199,11 @@ h1{
 	color: $accent3;
 }
 
+#sideHeaderWC{
+	margin-bottom: 0.5em;
+	color: $accent1;
+}
+
 #veraNext_h p{
 	font-size: 200%;
 	text-align: center;
@@ -218,6 +237,13 @@ h1{
 	width: 100%;
 	padding-top: 1em;
 	padding-bottom: 2em;
+}
+
+.eventPageBig_slider{
+    background: #F8F8F8;
+	margin-left: 5em;
+    margin-right: 5em;
+    padding: 1rem;
 }
 
 .eventPageBig_item{
@@ -288,6 +314,10 @@ h1{
 	color: $accent5;
 }
 
+.accent6{
+	color: $accent6;
+}
+
 .circularImg{
 	border-radius: 50%;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -333,4 +363,32 @@ h1{
     color: red;
     text-align: center;
     font-size: 150%;
+}
+
+.slick-slide {
+    margin: 0 10px;
+}
+
+.slick-list {
+    margin: 0 -10px;
+}
+
+.slick-track{
+    display: flex;
+
+    .slick-slide{
+        display: flex;
+        height: auto;
+        align-items: center; //optional
+        justify-content: center; //optional
+    }
+}
+
+.wcItem{
+    background: rgba(0, 6, 25, 0.91);
+    color: rgba(133, 133, 133, 0.80);
+}
+
+.wcItem label{
+    color: rgba(133, 133, 133, 0.80);
 }
