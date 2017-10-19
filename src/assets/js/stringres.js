@@ -2,7 +2,8 @@
 	//Navigation
 	"navTitle": "educat e.V.",
 	"navEventH": "Veranstaltungen",
-	"navEventSub1": "ScienceCamp 2017",
+	"navEventSub1": "Werwolf Camp",
+	"navEventSub2": "Science Camp 2017",
 	"navEventSubArchive": "Archiv",
 	"navTeamH": "Wir",
 	"navTeamTeam": "Team",
@@ -13,10 +14,10 @@
 	"navGuildMember": "Mitgliedschaft",
 	"navContactH": "Kontakt/Impressum",
 	//Main side
-	"indexHeader1": "Ausflug nach Ulm",
-	"indexItem1": "Wie angekündigt wollen wir am <b>21. Oktober</b> einen Ausflug unternehmen, der auch gleichzeitig Nachtreffen des Science Camps sein soll. Wir haben uns dazu für <b>Ulm</b> entschieden. Dort besuchen wir das <b>Naturkundemuseum</b>, das zu dieser Zeit eine Mitmachausstellung \"Herbst im Museum\" anbietet. Außerdem werden wir mit Hilfe von <b>GPS Ulm erkunden</b>.<br>Natürlich sind alle Teilnehmenden des diesjährigen Science Camps eingeladen, aber wir freuen uns auch auf andere bekannte und neue Gesichter. Freut euch auf einen spannenden spassigen Tag und lasst euch überraschen!<br>21. Oktober 2017, 10:30 - 17:00 Uhr (Bahnhof Geislingen), 8€ (wird bar bezahlt), Essen und Trinken sowie wettergerechte Kleidung mitbringen. Anmeldungen per Mail an <a href=\"mailto:wissen.tag@gmail.com?subject=Anmeldung%20Ausflug%20Ulm\">wissen.tag@gmail.com</a>, bei Kindern, die schon einmal dabei waren, reicht der Namen, bei allen Neuen bitte auch Telefonnummer und Geburtstag.",
-	"indexHeader2": "Science Camp 2017",
-	"indexItem2": "Zwei Wochen lang hörte man bei der Skihütte in Weiler Kinderrufe, Sägen, Hämmer und Gesang. Jetzt ist wieder Ruhe eingekehrt, denn das Science Camp 2017 ist vorbei. In beiden Wochen hatten wir bestes Wetter und eine Menge Spaß!<br>Wir haben allen Eltern eine E-Mail geschickt, in der Link und Passwort zu den Bildern stehen.",
+	"indexHeader1": "Werwolf Camp",
+	"indexItem1": "<i>...unweit des Düsterwalds liegt seit uralter Zeit ein Dorf. Das Leben ging seinen gewohnten Gang, bis eines Tages ein uralter Schatten zurückkehrte ...</i><br> <br>Viele Kinder haben es sich oft gewünscht, und auch wir freuen uns sehr darauf: Das Werwolf Camp ist da! Es wird sich alles um das allseits beliebte Spiel drehen, und da gibt es eine Menge zu entdecken!<br>Gleich zu Begin des neuen Jahres fahren wir für ein Wochenende nach Blaubeuren. Alles weitere findet sich <a href='/veranstaltungen/werwolfcamp'>hier</a>.",
+	"indexHeader2": "Rückblick Ausflug Ulm",
+	"indexItem2": "Als Nachtreffen für das diesjährige Science Camp waren wir am 21. Oktober in Ulm. Dort haben wir das Naturkundemuseum besucht und die Altstadt mit Hilfe von GPS erkundet.<br>Wir haben das Wochende auserdem im Team genutzt, um Planungen für das nächste Jahr voranzutreiben.",
 	"indexHeader3": "Fördermitgliedschaft",
 	"indexItem3": "Am Sonntag zwischen den beiden Science Camp Wochen fand eine Mitgliederversammlung statt. Dabei wurde eine Satzungsänderung verabschiedet, sodass es jetzt Fördermitgliedschaften im Verein gibt. Nähere Informationen gibt es <a href='/verein/mitgliedschaft.html'>hier</a>.<br>Die aktuelle Version der Satzung findet sich auf der <a href='/verein'>Vereinsseite</a>.",
 	//Wir
@@ -240,6 +241,13 @@
     "wcItem7Header": "Anmelden",
     "wcItem7Str1": "Die Anmeldung erfolgt über dieses <a href=\"anmeldung.html\">Online-Formular</a>. Alternativ ist eine Anmeldung direkt an diese Mail-Adresse möglich.",
     "wcItem7Mail": "wissen.tag@gmail.com",
+    "wcItem8Header": "Lebensmittelunverträglichkeiten/ Allergien",
+    "wcItem8Str": "Informieren Sie uns bitte rechtzeitig über Allergien, Besonderheiten beim Essen und falls es sonst noch etwas zu berücksichtigen gibt. Wir richten uns gerne auf alle Bedürfnisse ein, jedoch müssen wir es vorher wissen.",
+    "wcItem9Header": "Mitbringen",
+    "wcItem9Str": "Wir melden uns rechtzeitig, was alles mitgebracht werden muss.",
+    "wcItem10Header": "Fotos",
+    "wcItem10Str1": "Wir werden wieder viele Fotos machen. Diese sind zunächst nach der Freizeit auf dieser Seite mit einem Passwort zugänglich.",
+    "wcItem10Str2": "Wir werden zudem auch einige Bilder veröffentlichen und ggf. weiterverwenden. Bitte geben Sie uns Bescheid, wenn einzelne Kinder nicht abgebildet werden sollen.",
     //Werwolf Camp Anmeldung
     "wcanmeldungHeader": "Werwolf Camp 2017 - Anmeldung",
     "wcanmeldungItem1Str1": "Zur Anmeldung füllen Sie bitte dieses Forumlar aus. Sind die Daten erfolgreich bei uns eingegangen, wird eine automatische EMail an die angegebene Adresse verschickt.",
