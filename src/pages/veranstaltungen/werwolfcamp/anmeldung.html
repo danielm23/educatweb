@@ -15,6 +15,11 @@
                             </div>
                             <div class="row eventPageBig_item wcItem followingRow">
                                 <form id="signup" method="POST" action="https://script.google.com/macros/s/AKfycbwSX3e-NVkb0Uz_YWdpuI2leEITFVdki0ycnQ4SVhMKmujUdDgV/exec">
+                                    <noscript>
+                                        <div class="row">
+                                            <p class="error">JavaScript scheint in diesem Brwoser deaktiviert zu sein. Vermutlich funktioniert die Anmeldung daher nicht. Aktivieren Sie JavaScript in den Browsereinstellungen.</p>
+                                        </div>
+                                    </noscript>
                                     <div class="row" id="dataInputChild">
                                         <div class="large-4 small-12 columns">
                                             <label>Vorname</label>
@@ -94,12 +99,17 @@
                                             <input type="submit" value="Abschicken">
                                         </div>
                                     </div>
+                                    <div class="row" id="submitInfo">
+                                        <div class="large-centered centerText columns">
+                                            <p>Nach dem Abschicken verschicken wir eine automatische Empfangsmail.</p>
+                                        </div>
+                                    </div>
                                 </form>
                                 <div class="hidden" id="signupClicked">
                                     <p>Anmeldung abgeschickt. Sobald die Daten erfolgreich eingegangen sind, wird automatisch eine EMail an die eingetragene Adresse geschickt.</p>
                                 </div>
                                 <div class="hidden" id="signupFinished">
-                                    <p>Anmeldung eingegangen. Sie sollten innerhalb weniger Minuten eine automatische EMail erhalten.</p>
+                                    <p>Anmeldung eingegangen. Sie sollten innerhalb weniger Minuten eine automatische EMail erhalten. <i>Aktualisieren Sie dafür ggf. ihr EMail-Postfach. Sollten Sie keine Mail erhalten, schauen Sie auch im Spamordner nach.</i></p>
                                 </div>
                             </div>
                         </div>
