@@ -230,7 +230,7 @@
     //Werwolf Camp
     "wcHeader": "Werwolf Camp",
     "wcItem1Str": "...unweit des Düsterwalds liegt seit uralter Zeit ein Dorf. Das Leben ging seinen gewohnten Gang, bis eines Tages ein uralter Schatten zurückkehrte ...",
-    "wcItem2Str1": "Schon lange haben wir die Idee, eine Freizeit zu machen, auf der es nur um ein Spiel geht: <b>Werwolf</b>. Dabei wollen wir nicht nur die klassische Runden spielen, sondern sämtliche Erweiterungen mitbringen. Entdeckt die Fähigkeiten des Urwolfs, des \"Alten\", des Wolfkindes, ...",
+    "wcItem2Str1": "Schon lange haben wir die Idee, eine Freizeit zu machen, auf der es hauptsächlich um ein Spiel geht: <b>Werwolf</b>. Dabei wollen wir nicht nur die klassische Runden spielen, sondern sämtliche Erweiterungen mitbringen. Entdeckt die Fähigkeiten des Urwolfs, des \"Alten\", des Wolfkindes, ...",
     "wcItem2Str2": "Alle, die noch nie das Werwolfspiel gespielt haben, werden es kennen (und lieben ;) ) lernen. Daneben machen wir uns zwei schöne Tage mit Spiel und Spaß, leckerem Essen und witzigen Aktionen! Dieses mal in Asch-Blaubeuren.",
     "wcItem3Header": "Wo",
     "wcItem3Str": "Das Werwolf Camp findet im Freizeitheim in Asch bei Blaubeuren statt. Das Gebäude ist bestens ausgestattet und verfügt über genügend Betten. Außerdem haben wir viel Platz zum Werwolf spielen.",
