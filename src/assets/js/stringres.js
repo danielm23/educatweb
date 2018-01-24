@@ -2,7 +2,7 @@
 	//Navigation
 	"navTitle": "educat e.V.",
 	"navEventH": "Veranstaltungen",
-	"navEventSub1": "Werwolf Camp",
+	"navEventSub1": "Ostercamp 2018",
 	"navEventSub2": "Science Camp 2017",
 	"navEventSubArchive": "Archiv",
 	"navTeamH": "Wir",
@@ -14,10 +14,10 @@
 	"navGuildMember": "Mitgliedschaft",
 	"navContactH": "Kontakt/Impressum",
 	//Main side
-	"indexHeader1": "Werwolf Camp",
-	"indexItem1": "<i>...unweit des Düsterwalds liegt seit uralter Zeit ein Dorf. Das Leben ging seinen gewohnten Gang, bis eines Tages ein uralter Schatten zurückkehrte ...</i><br> <br>Viele Kinder haben es sich oft gewünscht, und auch wir freuen uns sehr darauf: Das Werwolf Camp ist da! Es wird sich alles um das allseits beliebte Spiel drehen, und da gibt es eine Menge zu entdecken!<br>Gleich zu Begin des neuen Jahres fahren wir für ein Wochenende nach Blaubeuren. Alles weitere findet sich <a href='/veranstaltungen/werwolfcamp'>hier</a>.",
-	"indexHeader2": "Rückblick Ausflug Ulm",
-	"indexItem2": "Als Nachtreffen für das diesjährige Science Camp waren wir am 21. Oktober in Ulm. Dort haben wir das Naturkundemuseum besucht und die Altstadt mit Hilfe von GPS erkundet.<br>Wir haben das Wochende auserdem im Team genutzt, um Planungen für das nächste Jahr voranzutreiben.",
+	"indexHeader1": "Rückblick Werwolf Camp",
+	"indexItem1": "Gleich zu Beginn des neuen Jahres waren wir von Freitag bis Sonntag mit etwa 35 Jugendlichen in Asch bei Blaubeuren im Freizeitheim des eje-Esslingen. Wir haben ausgiebig das von unseren anderen Veranstaltungen sehr beliebte Werwolfspiel gespielt. Unter anderem haben wir eine Runde mit allen Jugendlichen und einigen Betreuern gespielt. Eine so große Runde hatten wir nie zuvor.<br>Aber auch Interessantes zum geschichtlichen Hintergrund der Werwölfe, der Spieltheorie und sportliche Betätigung in der zum Haus gehörenden Turnhalle haben allen viel Spaß gemacht. Das Wochenende war viel zu schnell vorbei und wir freuen uns jetzt schon auf die weiteren Veranstaltungen dieses Jahr!",
+	"indexHeader2": "Science Camp 2018",
+	"indexItem2": "Wir sind bereits wieder voll in die Planungen zum diesjährigen Science Camp eingestiegen. In Kürze können wir hierzu schon konkrete Aussagen machen, die wir dann auch hier veröffentlichen werden.<br>Auch zu anderen Veranstaltungen dieses Jahr demnächst mehr!",
 	"indexHeader3": "Fördermitgliedschaft",
 	"indexItem3": "Am Sonntag zwischen den beiden Science Camp Wochen fand eine Mitgliederversammlung statt. Dabei wurde eine Satzungsänderung verabschiedet, sodass es jetzt Fördermitgliedschaften im Verein gibt. Nähere Informationen gibt es <a href='/verein/mitgliedschaft.html'>hier</a>.<br>Die aktuelle Version der Satzung findet sich auf der <a href='/verein'>Vereinsseite</a>.",
 	//Wir
@@ -92,7 +92,7 @@
     "memberStr3": "Alle Fördermitglieder werden zu den Mitgliederversammlungen eingeladen, haben ein Rederecht, jedoch kein Stimmrecht. Für eine Fördermitgliedschaft wenden Sie sich per Mail an uns (<a href='/kontakt.html'>Kontakt</a>) oder sprechen uns bei einer Veranstaltung einfach an.",
 	//Kontakt
 	"contactContactHeader": "Kontakt",
-	"contactContactMail": "wissen.tag@googlemail.com",
+	"contactContactMail": "kontakt@educatweb.de",
 	"contactContactTel": "0157/ 300 52 349",
 	"contactContactAddr": "Educat e.V.<br> Ostmarkstraße 13<br> 73312 Geislingen",
 	"contactImprHeader": "Impressum",
@@ -141,6 +141,8 @@
 	"archiveTrip151Str": "In der kalten Jahreszeit haben wir einen Museumsausflug ins Deutsche Museum in München unternommen.",
 	"archiveTrip152Name": "Ausflug Bodensee 2015",
 	"archiveTrip152Str": "Am Bodensee haben wir sowohl die Schifffahrt als auch die Luftfahrt genauer betrachtet. Im Zeppelinmusuem schauten wir dazu die riesigen Luftschiffe der Vergangenheit an.",
+	"archiveWc18Name": "Werwolf Camp 2018",
+    "archiveWc18Str": "Gleich zu Begin des Jahres waren wir mit einer großen Gruppe Jugendlicher im Freizeitheim Asch bei Blaubeuren. Dort haben wir das beliebte Spiel Werwölfe vom Düsterwald ausgiebig gespielt, unter anderem in einer großen Gesamtrunde. Daneben gab es auch Spannendes zum geschichtlichen Hintergrund der Werwölfe oder zur Spieltheorie zu erfahren.",
 	//Ostercamp
 	"ocHeader": "Ostercamp 2017",
 	"ocItem1": "In der Woche vor Ostern, vom 10. bis 13. April wollen wir auf die Burg Derneck fahren. Das Haus ist sehr schön gelegen, hat gemütliche Schlafräume, eine Küche, in der wir gemeinsam kochen werden. Der ideale Platz, um viele spannende Tage zu verbringen.<br/>Wir wollen die Teilnehmer*innen dazu anregen, das Programm auch selbst mitzugestalten, daneben wird es feste Workshops zu den Themen Natur und Kreativität geben. Die Möglichkeiten sind sehr vielfältig: den Wald erkunden und Sachen bauen, Spiele spielen, aus Naturmaterialien etwas basteln, Upcycling (aus Altem Neues machen), einen Film drehen, ins Hallenbad fahren, etwas über Tiere lernen, Theater spielen, malen, …",
