@@ -1,4 +1,4 @@
-var resElements = document.querySelectorAll("[data-res]");
+﻿var resElements = document.querySelectorAll("[data-res]");
 
 var form = document.getElementById("signup");
 if (form != null) {
@@ -243,6 +243,26 @@ function submitSignup(event) {
         return false;
     }
     else {
+        var i = 1;
+        while (data.hasOwnProperty('name' + i)) {
+            i++;
+        }
+        var numberOfChildren = i;
+        
+        var children = data.name;
+
+        for (var i = 1; i < numberOfChildren; i++) {
+            children += " und " + data['name' + i];
+        }
+
+        $.post("sendMail.php",
+        {
+            mail: data.mail,
+            subject: 'Anmeldung Ostercamp',
+            text: 'Guten Tag,\n\ndie Anmeldung für das Ostercamp 2018 für ' + children + ' ist bei uns eingegangen. Wir werden die Anmeldedaten manuell prüfen und uns dann nochmals per EMail melden.\n\nViele Grüße,\ndas Educat Team'
+        },
+        function () { });
+
         var url = event.target.action;
         var request = new XMLHttpRequest();
         request.open("POST", url);

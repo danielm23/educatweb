@@ -14,12 +14,12 @@
 	"navGuildMember": "Mitgliedschaft",
 	"navContactH": "Kontakt/Impressum",
 	//Main side
-	"indexHeader1": "Rückblick Werwolf Camp",
-	"indexItem1": "Gleich zu Beginn des neuen Jahres waren wir von Freitag bis Sonntag mit etwa 35 Jugendlichen in Asch bei Blaubeuren im Freizeitheim des eje-Esslingen. Wir haben ausgiebig das von unseren anderen Veranstaltungen sehr beliebte Werwolfspiel gespielt. Unter anderem haben wir eine Runde mit allen Jugendlichen und einigen Betreuern gespielt. Eine so große Runde hatten wir nie zuvor.<br>Aber auch Interessantes zum geschichtlichen Hintergrund der Werwölfe, der Spieltheorie und sportliche Betätigung in der zum Haus gehörenden Turnhalle haben allen viel Spaß gemacht. Das Wochenende war viel zu schnell vorbei und wir freuen uns jetzt schon auf die weiteren Veranstaltungen dieses Jahr!",
-	"indexHeader2": "Science Camp 2018",
-	"indexItem2": "Wir sind bereits wieder voll in die Planungen zum diesjährigen Science Camp eingestiegen. In Kürze können wir hierzu schon konkrete Aussagen machen, die wir dann auch hier veröffentlichen werden.<br>Auch zu anderen Veranstaltungen dieses Jahr demnächst mehr!",
-	"indexHeader3": "Fördermitgliedschaft",
-	"indexItem3": "Am Sonntag zwischen den beiden Science Camp Wochen fand eine Mitgliederversammlung statt. Dabei wurde eine Satzungsänderung verabschiedet, sodass es jetzt Fördermitgliedschaften im Verein gibt. Nähere Informationen gibt es <a href='/verein/mitgliedschaft.html'>hier</a>.<br>Die aktuelle Version der Satzung findet sich auf der <a href='/verein'>Vereinsseite</a>.",
+	"indexHeader1": "Ostercamp 2018",
+	"indexItem1": "Das Ostercamp dieses Jahr findet vom 3. bis 6. April auf der Blauhütte in Blaubeuren statt. Wir werden einige Tage mit spannenden Aktivitäten zu unterschiedlichen Themen verbringen. Auch ein Besuch eines Hallenbads steht dieses Jahr wieder an. Weitere Informationen und die Anmeldung finden sich <a href='/veranstaltungen/ostercamp/'>hier</a>.",
+	"indexHeader2": "Rückblick Werwolf Camp",
+	"indexItem2": "Gleich zu Beginn des neuen Jahres waren wir von Freitag bis Sonntag mit etwa 35 Jugendlichen im Freizeitheim in Asch bei Blaubeuren. Wir haben ausgiebig das von unseren anderen Veranstaltungen sehr beliebte Werwolfspiel gespielt und bei anderen Aktivitäten zusammen viel Spaß gehabt.",
+	"indexHeader3": "Science Camp 2018",
+	"indexItem3": "Das Science Camp geht dieses Jahr in eine weitere Runde, und zwar in den beiden Wochen vom <b>6. August - 17. August</b>. Wir werden wieder bei der Skihütte in Weiler sein, diese Jahr mit dem Thema \"Rund um die Welt\". Weitere Informationen folgen, die Anmeldung wird voraussichtlich ab Mitte April möglich sein.",
 	//Wir
 	"teamStr1": "Wir sind eine Gruppe junger Menschen, die einerseits in ganz verschiedenen wissenschaftlichen Themen interessiert sind und andererseits sehr viel Spaß an der Arbeit mit Kinder haben. Einige sind aus Geislingen und Umgebung, längst aber auch darüber hinaus. Waren es anfangs noch ein paar Kommilitonen, die dazu kamen, sind heute viele aus ganz Deutschland dabei.",
 	"teamStr2": "Die Teamzusammensetzung der Betreuer- und Organisationsteams der einzelnen Veranstaltungen variiert dabei stark, je nach Zeit und Lust. So kommen auch ständig neue Menschen dazu, sei es aus dem Freundes- und Bekanntenkreis, ehemalige Teilnehmerinnen und Teilnehmer oder auch Personen, die zuvor nichts mit uns zu tun hatten.",
@@ -49,6 +49,8 @@
 	"teamMeb10Str": "",
 	"teamMeb11Name": "Anne",
 	"teamMeb11Str": "»Wenn nette Leute und coole Kids zusammenkommen, wenn getüftelt, experimentiert und gelacht wird, dann bin ich wohl im Science Camp.«",
+	"teamMeb12Name": "Lukas",
+	"teamMeb12Str": "",
 	//Mitarbeiten
 	"teamworkHeader": "Mitarbeiten",
 	"teamworkStr1": "Hast du Spaß an der Arbeit mit Kindern und Jugendlichen? Und Lust auf eine spassige und spannende Beschäftigung in den Ferien? Dann bist du bei uns richtig!",
@@ -145,7 +147,7 @@
     "archiveWc18Str": "Gleich zu Begin des Jahres waren wir mit einer großen Gruppe Jugendlicher im Freizeitheim Asch bei Blaubeuren. Dort haben wir das beliebte Spiel Werwölfe vom Düsterwald ausgiebig gespielt, unter anderem in einer großen Gesamtrunde. Daneben gab es auch Spannendes zum geschichtlichen Hintergrund der Werwölfe oder zur Spieltheorie zu erfahren.",
 	//Ostercamp
 	"ocHeader": "Ostercamp 2018",
-    "ocItem1Str1": "In der Woche nach Ostern, vom 3. bis 6. April wollen wir auf die Blauhütte nahe Blaubeuren fahren. Das Haus ist sehr schön gelegen, hat gemütliche Schlafräume, eine Küche, in der wir gemeinsam kochen werden. Der ideale Platz, um viele spannende Tage zu verbringen.",
+    "ocItem1Str1": "In der Woche nach Ostern, vom 3. bis 6. April, wollen wir auf die Blauhütte nahe Blaubeuren fahren. Das Haus ist sehr schön gelegen, hat gemütliche Schlafräume, eine Küche, in der wir gemeinsam kochen werden und einen gemütlichen Gemeinschaftsraum. Der ideale Platz, um viele spannende Tage zu verbringen.",
     "ocItem1Str2": "Wir wollen die Teilnehmer*innen dazu anregen, das Programm auch selbst mitzugestalten, daneben wird es feste Workshops zu unterschiedlichen Themen geben. Die Möglichkeiten sind sehr vielfältig: den Wald erkunden und Sachen bauen, Spiele spielen, etwas basteln, einen Film drehen, programmieren, etwas über Tiere lernen, Theater spielen, …",
     "ocItem1Str3": "Wir werden außerdem das Steinzeitmuseum in Blaubeuren besuchen und ins Hallenbad gehen. Auf jeden Fall wird es allen viel Spaß machen.",
 	"ocItem2Header": "Wo",
@@ -153,7 +155,7 @@
 	"ocItem3Header": "Wann",
 	"ocItem3Str": "Die Freizeit findet von <strong>Dienstag, 3. bis Freitag, 6. April 2018</strong> statt. Das ist die Woche nach Ostern. Abfahrt in Geislingen ist am Dienstagmorgen, Rückkehr am Freitagabend.",
 	"ocItem4Header": "Wer",
-	"ocItem4Str": "Teilnehmen können alle Kinder und Jugendlichen zwischen <strong>10 und 16 Jahren</strong>.",
+	"ocItem4Str": "Teilnehmen können alle Kinder und Jugendlichen zwischen <strong>9 und 16 Jahren</strong>.",
 	"ocItem5Header": "Kosten",
     "ocItem5Str1": "Die gesamte Fahrt kostet <strong>80€</strong>.",
     "ocItem5Str2": "Die Veranstaltung wird komplett ehrenamtlich organisiert und wir haben alles recht knapp kalkuliert. Auf jeden Fall wollen wir die Teilnahme allen ermöglichen, die mitkommen möchten, melden Sie sich daher, wenn die Kosten ein Problem darstellen. Auf der anderen Seite freuen wir uns über eine zusätzliche Spende, die dann in die Veranstaltung fliesst.",
@@ -168,7 +170,7 @@
     "ocItemTeamHeader": "Das Team",
     //Ostercamp Anmeldung
     "ocanmeldungHeader": "Ostercamp 2018 - Anmeldung",
-    "ocanmeldungItem1Str1": "Zur Anmeldung füllen Sie bitte dieses Forumlar aus. Sind die Daten erfolgreich bei uns eingegangen, wird eine automatische EMail an die angegebene Adresse verschickt. Aktualisieren Sie dazu ggf. ihr EMail-Programm.",
+    "ocanmeldungItem1Str1": "Zur Anmeldung füllen Sie bitte dieses Forumlar aus. Sind die Daten erfolgreich bei uns eingegangen, wird eine automatische EMail an die angegebene Adresse verschickt. Aktualisieren Sie dazu ggf. ihren EMail-Ordner.",
     "ocanmeldungItem1Str2": "Vor der Freizeit versenden wir nochmals detaillierte Informationen zu Details, sowie der Bezahlung des Freizeitbeitrages. Bei Fragen sind wir selbstverständlich erreichbar (<a href=\"/kontakt.html\">Kontakt</a>).",
     //Science Camp
 	"scHeader": "Science Camp 2017",
