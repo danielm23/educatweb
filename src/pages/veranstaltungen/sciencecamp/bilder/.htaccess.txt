@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Bilder Science Camp 2017"
-AuthUserFile /assets/.htpasswd
-Require valid-user

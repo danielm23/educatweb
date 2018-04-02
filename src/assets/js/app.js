@@ -234,15 +234,32 @@ function submitSignup(event) {
 
     var data = getSignupData();
 
-    /*if (!validShuttleEarly(data.shuttle, data.fruehbetreuung)) {
-        document.getElementById("checkboxInvalid").classList = "row";
-        return false;
-    }*/
-    if (!validEmail(data.mail)) {
-        document.getElementById("mailInvalid").classList = "row";
-        return false;
+    //check if shuttle and earlybird is checked together
+    if (!validShuttleEarly(data.shuttle, data.fruehbetreuung)) {
+        if (document.getElementById("checkboxInvalid").classList.contains('hidden')) {
+            document.getElementById("checkboxInvalid").classList.remove('hidden');
+            return false;
+        }
+    } else {
+        if (!document.getElementById("checkboxInvalid").classList.contains('hidden')) {
+            document.getElementById("checkboxInvalid").classList.add('hidden');
+        }
     }
-    else {
+
+    //check if mail is valid (most browsers check this by themself already)
+    if (!validEmail(data.mail)) {
+        if (document.getElementById("mailInvalid").classList.contains('hidden')) {
+            document.getElementById("mailInvalid").classList.remove('hidden');
+            return false;
+        }
+    } else {
+        if (!document.getElementById("mailInvalid").classList.contains('hidden')) {
+            document.getElementById("mailInvalid").classList.add('hidden');
+        }
+    }
+
+    //send mail and send data to google doc
+    {
         var i = 1;
         while (data.hasOwnProperty('name' + i)) {
             i++;
@@ -258,8 +275,8 @@ function submitSignup(event) {
         $.post("sendMail.php",
         {
             mail: data.mail,
-            subject: 'Anmeldung Ostercamp',
-            text: 'Guten Tag,\n\ndie Anmeldung für das Ostercamp 2018 für ' + children + ' ist bei uns eingegangen. Wir werden die Anmeldedaten manuell prüfen und uns dann nochmals per EMail melden.\n\nViele Grüße,\ndas Educat Team'
+            subject: 'Anmeldung Science Camp',
+            text: 'Guten Tag,\n\ndie Anmeldung für das Science Camp 2018 für ' + children + ' ist bei uns eingegangen. Wir werden die Anmeldedaten manuell prüfen und uns dann nochmals per EMail melden.\n\nViele Grüße,\ndas Educat Team'
         },
         function () { });
 
@@ -270,9 +287,15 @@ function submitSignup(event) {
         request.onreadystatechange = function () {
             console.log(request.status, request.statusText)
             console.log(request.responseText);
-            document.getElementById("signup").classList = "hidden";
-            document.getElementById("signupClicked").classList = "hidden";
-            document.getElementById("signupFinished").classList = null;
+            if (!document.getElementById("signup").classList.contains('hidden')) {
+                document.getElementById("signup").classList.add('hidden');
+            }
+            if (!document.getElementById("signupClicked").classList.contains('hidden')) {
+                document.getElementById("signupClicked").classList.add('hidden');
+            }
+            if (document.getElementById("signupFinished").classList.contains('hidden')) {
+                document.getElementById("signupFinished").classList.remove('hidden');
+            }
             return;
         };
 
@@ -280,8 +303,12 @@ function submitSignup(event) {
             return encodeURIComponent(m) + "=" + encodeURIComponent(data[m])
         }).join("&")
         request.send(encoded);
-        document.getElementById("signup").classList = "hidden";
-        document.getElementById("signupClicked").classList = null;
+        if (!document.getElementById("signup").classList.contains('hidden')) {
+            document.getElementById("signup").classList.add('hidden');
+        }
+        if (document.getElementById("signupClicked").classList.contains('hidden')) {
+            document.getElementById("signupClicked").classList.remove('hidden');
+        }
     }
 }
 
