@@ -1,4 +1,4 @@
-@charset 'utf-8';
+﻿@charset 'utf-8';
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
@@ -45,6 +45,13 @@
 // @include foundation-flex-classes;
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+
 .hero {
     background: no-repeat center center;
     background-size: cover;
@@ -54,7 +61,7 @@
 .hero .intro {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 1.2rem;
-    position: relative;
+    //position: relative;	//TODO: daniel: notwendig? ohne wird das nav-dropdown korrekt angezeigt (nicht unterhalb dem intro)
     margin: 0rem;
 }
 
@@ -81,11 +88,324 @@
     background: #000;
 }
 
-#nav-img a{
+#side{
+	height: 100%;
+	position: relative;
+}
+
+#body{
+	height: 100%;
+	//position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+#box{
+	height: 100%;
+}
+
+#boxWC{
+	height: 100%;
+    background-image: linear-gradient(to top, #e9ebee 0%, #214f8f 40%, #0e1e6b 60%, #041269 80%, black 95%);
+}
+
+#mainContainer{
+	background: #fff;
+	min-height: 100%;
+}
+
+#mainContainerWC{
+	background: rgba(0, 31, 69, 0.85);
+	min-height: 100%;
+}
+
+#mainInnerContainer{
+	padding-top: 5rem;	//dynamically updated by jQuery
+}
+
+#contentContainer{
+	padding-top: 2rem;
+	padding-left: 2em;
+	position: relative;
+    @media screen and (max-width: $large) {
+       margin-right: 2em;
+       }
+}
+
+#navContainer{
+	background: $topbar-background;
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+}
+
+#stickyNavContainer{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .8);
+}
+
+#nav_img a{
 	padding: 0;
 }
 
-#nav-main-text a{
+#navMainText a{
 	padding: 0;
 	color: black;
+}
+
+.vertCent{
+    @media screen and (min-width: $large) {
+	    position: relative;
+	    top: 50%;
+	    transform: translateY(-50%);
+        }
+}
+
+.followingRow{
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+.followingRow_bigPage{
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+}
+
+.mainPage_secondRow_img{
+	max-width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mainPage_item{
+	background: #F8F8F8;
+	padding: 1rem;
+	//height: 100%;
+	//border: 1px solid #f1f1f1;
+}
+
+.mainPage_item h3{
+	font-family: 'Caveat', cursive;
+}
+
+h1{
+	font-family: 'Caveat', cursive;
+    text-align: center;
+	font-size: 420%;
+}
+
+#sideHeader{
+	margin-bottom: 0.5em;
+	color: $accent3;
+}
+
+#sideHeaderWC{
+	margin-bottom: 0.5em;
+	color: $accent1;
+}
+
+#veraNext_h p{
+	font-size: 200%;
+	text-align: center;
+}
+
+#veraNext_h i{
+	color: $iconColor;
+}
+
+#veraNextContent{
+	font-size: 150%;
+}
+
+#nextEvents{
+	background-color: $green100;
+	padding-top: 1em;
+}
+
+#commonEvents h3{
+	font-family: 'Caveat', cursive;
+}
+
+.eventPage_item{
+	background: #F8F8F8;
+	padding: 1rem;
+	height: 100%;
+	border: 1px solid #f1f1f1;
+}
+
+.eventPageBig_mainImg{
+	width: 100%;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.eventPageBig_slider{
+    background: #F8F8F8;
+	margin-left: 5em;
+    margin-right: 5em;
+    padding: 1rem;
+}
+
+.eventPageBig_item{
+	background: #F8F8F8;
+	padding: 1rem;
+	//height: 100%;
+	//border: 1px solid #f1f1f1;
+}
+
+.shadowSmall{
+	box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+}
+
+.shadowBig{
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+#eventPageBig_itemImg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.eventPageBig_item_h{
+	color: $iconColor;
+	font-family: 'Caveat', cursive;
+	font-size: 380%;
+	padding-left: 0.2em;
+}
+
+.eventPageBig_item_h2{
+	color: $accent4;
+	font-family: 'Caveat', cursive;
+	font-size: 180%;
+	padding-left: 0.2em;
+    padding-top: 1em;
+}
+
+.eventPageBig_item_p{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+
+.googlemaps{
+	 width: 100%;
+	 //height: 100%;
+	 frameborder: 0;
+	 border: 0; 
+}
+
+.accent1{
+	color: $accent1;
+}
+
+.accent2{
+	color: $accent2;
+}
+
+.accent3{
+	color: $accent3;
+}
+
+.accent4{
+	color: $accent4;
+}
+
+.accent5{
+	color: $accent5;
+}
+
+.accent6{
+	color: $accent6;
+}
+
+.circularImg{
+	border-radius: 50%;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.teamName{
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+	padding-top: 1em;
+}
+
+.teamText{
+	text-align: center;
+}
+
+.followingTeamRow{
+    @media screen and (min-width: $large){
+	    padding-top: 2em;
+    }
+}
+
+.largeSameRow{
+    @media screen and (max-width: $medium) {
+	    padding-bottom: 2em;
+        }
+}
+
+.centerImg{
+    display: block;
+    margin: 0 auto;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.error{
+    color: red;
+    text-align: center;
+    font-size: 150%;
+}
+
+.slick-slide {
+    margin: 0 10px;
+}
+
+.slick-list {
+    margin: 0 -10px;
+}
+
+.slick-track{
+    display: flex;
+
+    .slick-slide{
+        display: flex;
+        height: auto;
+        align-items: center; //optional
+        justify-content: center; //optional
+    }
+}
+
+.wcItem{
+    background: rgba(0, 6, 25, 0.91);
+    color: rgba(133, 133, 133, 0.80);
+}
+
+.wcItem label{
+    color: rgba(133, 133, 133, 0.80);
+}
+
+.socialMediaLogo{
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+#fbLogo a{
+    padding: 0;
+}
+
+#igLogo a{
+    padding: 0;
+}
+
+#ytLogo a{
+    padding: 0;
 }

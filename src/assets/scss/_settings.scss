@@ -45,15 +45,27 @@
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
-$foundation-palette: ( primary: #dd4124, secondary: #2199e8, success: #3adb76, warning: #ffae00, alert: #ec5840, );
+$foundation-palette: ( primary: #c62828, secondary: #2199e8, success: #3adb76, warning: #ffae00, alert: #ec5840, );
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
-$body-background: $white;
+$green400: #9ccc65;
+$green100: #f1f8e9;
+$green600: #7cb342;
+$red500: #f44336;
+$iconColor: #752864;
+$accent1: #752864;
+$accent2: #cddc39;
+$accent3: #3f51b5;
+$accent4: #9ccc65;
+$accent5: #b71c1c;
+$accent6: #740f0f;
+$body-background: #e9ebee;
 $body-font-color: $black;
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700|Caveat');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 $body-font-family: 'Roboto',
 'Helvetica Neue',
 Helvetica,
@@ -77,6 +89,8 @@ large: 1024px,
 xlarge: 1200px,
 xxlarge: 1440px,
 );
+$large: 1024px;
+$medium: 640px;
 $breakpoint-classes: (small medium large);
 // 3. The Grid
 // -----------
@@ -472,12 +486,12 @@ $thumbnail-transition: box-shadow 200ms ease-out;
 $thumbnail-radius: $global-radius;
 // 34. Title Bar
 // -------------
-$titlebar-background: $white;
+$titlebar-background: $green400;
 $titlebar-color: $black;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;
 $titlebar-icon-color: $white;
-$titlebar-icon-color-hover: $medium-gray;
+$titlebar-icon-color-hover: $red500;
 $titlebar-icon-spacing: 0.25rem;
 // 35. Tooltip
 // -----------
@@ -493,8 +507,8 @@ $tooltip-radius: $global-radius;
 // 36. Top Bar
 // -----------
 $topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
-$topbar-submenu-background: $topbar-background;
+$topbar-background: $green400;
+$topbar-submenu-background: $green600;
 $topbar-title-spacing: 1rem;
 $topbar-input-width: 200px;
 $topbar-unstack-breakpoint: medium;

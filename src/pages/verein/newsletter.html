@@ -1,0 +1,36 @@
+<div id="side">
+    {{> navigation}}
+    <div id="body">
+        <div id="box">
+            <div class="row" id="mainContainer">
+                <div id="mainInnerContainer">
+                    <div class="row" id="contentContainer">
+                        <div class="large-10 large-centered columns">
+                            <h1 id="sideHeader" data-res="newsletterHeader"></h1>
+                            <div class="row eventPageBig_item">
+                                <div class="large-12 columns">
+                                    <p data-res="newsletterStr1"></p>
+                                    <form id="newsletter" method="POST" action="https://script.google.com/macros/s/AKfycbxXg8RlsVo56OZhZWFqnoDdzLyOaQHgmLe3i4FFsHfjZjpfggM/exec">
+                                        <input name="mail" type="email" placeholder="Mailadresse">
+                                        <input type="submit" value="Eintragen">
+                                        <div class="row hidden" id="mailInvalid">
+                                            <div class="large-12 columns">
+                                                <p class="error">E-Mail Adresse ist nicht valid!</p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="hidden" id="signupClicked">
+                                        <p>Adresse abgeschickt. Sobald die Adresse bei uns eingegangen ist, ändert sich dieser Text.</p>
+                                    </div>
+                                    <div class="hidden" id="signupFinished">
+                                        <p>Adresse eingegangen. Wir haben ihre Mailadresse in unseren Newsletter eingetragen. Sie können den Newsletter jederzeit per Mail an <a href="mailto:kontakt@educatweb.de">kontakt@educatweb.de</a> abbestellen.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

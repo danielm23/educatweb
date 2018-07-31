@@ -1,32 +1,37 @@
- {{> navigation}}
-<div id="body">
-	<div id="box">
-		<div class="row">
-			<div class="large-12 columns">
-				<section class="hero" data-interchange="[{{root}}assets/img/demo.jpg, small], [{{root}}assets/img/demo.jpg, medium], [{{root}}assets/img/demo.jpg, large]">
-					<div class="row intro">
-						<div class="small-centered medium-uncentered medium-6 large-7 columns">
-							<h1>educat e.V.</h1>
-							<h2>Angebote für Kinder und Jugendliche</h2>
-						</div>
-					</div>
-				</section>
-			</div>
-			<div class="row">
-				<div class="large-10 large-centered columns">
-					<h2>Aktuelles</h2>
-					<div class="row">
-						<div class="large-6 medium-6 columns">
-							<h3>Osterfreizeit 2017</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat. <strong>mehr</strong>
-							</p>
-						</div>
-						<div class="large-6 medium-6 columns">
-							<h3>Science Camp 2017</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. <strong>mehr</strong>
-							</p>
+<div id="side">
+	{{> navigation}}
+	<div id="body">
+		<div id="box">
+			<div class="row" id="mainContainer">
+				<div id="mainInnerContainer">
+					<div class="row" id="contentContainer">
+						<div class="large-10 large-centered columns">
+							<div class="row firstRow mainPage_item shadowSmall" data-equalizer data-equalizer-on="large">
+								<div class="large-12 small-12 columns">
+									<div class="large-6 small-12 columns" data-equalizer-watch>
+										<h3 data-res="indexHeader1"></h3>
+										<p data-res="indexItem1"></p>
+									</div>
+									<div class="large-6 small-12 columns" data-equalizer-watch>
+                                        <img class="" alt="Science Camp 2018 Logo" src="/assets/img/sc18logo.png" />
+									</div>
+								</div>
+							</div>
+							<div class="row followingRow" data-equalizer data-equalizer-on="large">
+								<div class="large-6 small-12 columns largeSameRow" >
+									<div class="mainPage_item shadowSmall" data-equalizer-watch>
+										<h3 data-res="indexHeader2"></h3>
+										<p data-res="indexItem2"></p>
+									</div>
+								</div>
+								<div class="large-6 small-12 columns largeSameRow" >
+									<div class="mainPage_item shadowSmall" data-equalizer-watch>
+										<h3 data-res="indexHeader3"></h3>
+										<p data-res="indexItem3"></p>
+                                        <!--<img class="mainPage_secondRow_img" alt="educat Logo" src="/assets/img/sc18logo.png" />-->
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
