@@ -6,6 +6,11 @@ if (form != null) {
     var numberOfAdds = 0;
 }
 
+var formNews = document.getElementById("newsletter");
+if (formNews != null) {
+    formNews.addEventListener("submit", newsletterSignup, false);
+}
+
 for (var i = 0; i < resElements.length; i++) {
     var resElement = resElements[i];
     var resKey = resElement.getAttribute("data-res");
@@ -232,7 +237,7 @@ function addSignupFieldWC() {
 function submitSignup(event) {
     event.preventDefault();
 
-    var data = getSignupData();
+    var data = getSignupData(0);
 
     //check if shuttle and earlybird is checked together
     if (!validShuttleEarly(data.shuttle, data.fruehbetreuung)) {
@@ -324,8 +329,12 @@ function validShuttleEarly(shuttle, early) {
     return true;
 }
 
-function getSignupData() {
-    var inputElements = document.getElementById("signup").elements;
+function getSignupData(type) {
+    if (type == 0)
+        var inputElements = document.getElementById("signup").elements;
+    else if(type == 1)
+        var inputElements = document.getElementById("newsletter").elements;
+
     var inputFields = Object.keys(inputElements).map(function (m) {
         if (inputElements[m].name !== undefined) {
             return inputElements[m].name;
@@ -353,6 +362,54 @@ function getSignupData() {
     });
 
     return data;
+}
+
+function newsletterSignup(event) {
+    event.preventDefault();
+
+    var data = getSignupData(1);
+
+    //check if mail is valid (most browsers check this by themself already)
+    if (!validEmail(data.mail)) {
+        if (document.getElementById("mailInvalid").classList.contains('hidden')) {
+            document.getElementById("mailInvalid").classList.remove('hidden');
+            return false;
+        }
+    } else {
+        if (!document.getElementById("mailInvalid").classList.contains('hidden')) {
+            document.getElementById("mailInvalid").classList.add('hidden');
+        }
+    }
+
+    var url = event.target.action;
+    var request = new XMLHttpRequest();
+    request.open("POST", url);
+    request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    request.onreadystatechange = function () {
+        console.log(request.status, request.statusText)
+        console.log(request.responseText);
+        if (!document.getElementById("newsletter").classList.contains('hidden')) {
+            document.getElementById("newsletter").classList.add('hidden');
+        }
+        if (!document.getElementById("signupClicked").classList.contains('hidden')) {
+            document.getElementById("signupClicked").classList.add('hidden');
+        }
+        if (document.getElementById("signupFinished").classList.contains('hidden')) {
+            document.getElementById("signupFinished").classList.remove('hidden');
+        }
+        return;
+    };
+
+    var encoded = Object.keys(data).map(function (m) {
+        return encodeURIComponent(m) + "=" + encodeURIComponent(data[m])
+    }).join("&")
+    request.send(encoded);
+    if (!document.getElementById("newsletter").classList.contains('hidden')) {
+        document.getElementById("newsletter").classList.add('hidden');
+    }
+    if (document.getElementById("signupClicked").classList.contains('hidden')) {
+        document.getElementById("signupClicked").classList.remove('hidden');
+    }
 }
 
 function resizeSlickSlider() {
