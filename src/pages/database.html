@@ -1,0 +1,52 @@
+<div id="side">
+	{{> navigation}}
+	<div id="body">
+		<div id="box">
+			<div class="row" id="mainContainer">
+				<div id="mainInnerContainer">
+					<div class="row" id="contentContainer">
+                        <div class="row">
+						    <div class="large-4 large-centered columns eventPageBig_item shadowSmall">
+							    <form id="databaseConnect" method="POST" action="javascript:connectToDB()">
+                                    <input name="username" type="text" placeholder="username" />
+                                    <input name="passowrd" type="password" placeholder="password" />
+                                    <label>Abfrage</label>
+                                    <input name="item" type="text" placeholder="Posten - * für alles" />
+                                    <label>Typ</label>
+                                    <select name="type">
+                                        <option value="all" selected="selected"></option>
+                                        <optgroup label="Typ">
+                                            <option value="bm">Bastelmaterial</option>
+                                            <option value="dk">Deko</option>
+                                            <option value="vm">Verbrauchsmaterial</option>
+                                            <option value="wz">Werkzeug</option>
+                                            <option value="bw">Bastelwerkzeug</option>
+                                            <option value="nm">Nutzmaterial</option>
+                                            <option value="sp">Spiel</option>
+                                        </optgroup>
+                                    </select>
+                                    <label>Ort</label>
+                                    <select name="location">
+                                        <option value="all" selected="selected"></option>
+                                        <optgroup label="Ort">
+                                            <option value="he">Hofstett</option>
+                                            <option value="ke">Kerstin</option>
+                                            <option value="os">Ostmarkstraße</option>
+                                            <option value="ss">Saarstraße</option>
+                                        </optgroup>
+                                    </select>
+                                    <input type="submit" value="Select" />
+                                </form>					
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-12 columns eventPageBig_item shadowSmall followingRow">
+                                <p id="sqlResult"></p>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

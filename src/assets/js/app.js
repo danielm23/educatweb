@@ -240,7 +240,7 @@ function submitSignup(event) {
     var data = getSignupData(0);
 
     //check if shuttle and earlybird is checked together
-    if (!validShuttleEarly(data.shuttle, data.fruehbetreuung)) {
+    /*if (!validShuttleEarly(data.shuttle, data.fruehbetreuung)) {
         if (document.getElementById("checkboxInvalid").classList.contains('hidden')) {
             document.getElementById("checkboxInvalid").classList.remove('hidden');
             return false;
@@ -261,7 +261,7 @@ function submitSignup(event) {
         if (!document.getElementById("mailInvalid").classList.contains('hidden')) {
             document.getElementById("mailInvalid").classList.add('hidden');
         }
-    }
+    }*/
 
     //send mail and send data to google doc
     {
@@ -280,8 +280,8 @@ function submitSignup(event) {
         $.post("sendMail.php",
         {
             mail: data.mail,
-            subject: 'Anmeldung Science Camp',
-            text: 'Guten Tag,\n\ndie Anmeldung für das Science Camp 2018 für ' + children + ' ist bei uns eingegangen. Wir werden die Anmeldedaten manuell prüfen und uns dann nochmals per EMail melden.\n\nViele Grüße,\ndas Educat Team'
+            subject: 'Anmeldung Werwolf Camp',
+            text: 'Guten Tag,\n\ndie Anmeldung für das Werwolf Camp 2019 für ' + children + ' ist bei uns eingegangen. Wir werden die Anmeldedaten manuell prüfen und uns dann nochmals per EMail melden.\n\nViele Grüße,\ndas Educat Team'
         },
         function () { });
 
@@ -420,4 +420,18 @@ function resizeSlickSlider() {
     var slickTrackHeight = $(slickTrack).height();
 
     $slickSlider.find('.slick-slide').css('height', slickTrackHeight + 'px');
+}
+
+function connectToDB() {
+    event.preventDefault();
+    var data = getSignupData(0);
+
+    $.post("db.php",
+        {
+            username: data.username,
+            password: data.password
+        },
+        function (data) {
+            
+        });
 }
