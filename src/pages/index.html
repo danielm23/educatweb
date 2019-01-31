@@ -1,37 +1,41 @@
-<div id="side">
-	{{> navigation}}
-	<div id="body">
-		<div id="box">
-			<div class="row" id="mainContainer">
-				<div id="mainInnerContainer">
-					<div class="row" id="contentContainer">
-						<div class="large-10 large-centered columns">
-							<div class="row firstRow mainPage_item shadowSmall" data-equalizer data-equalizer-on="large">
-								<div class="large-12 small-12 columns">
-									<div class="large-6 small-12 columns" data-equalizer-watch>
-                                        <h3 data-res="indexHeader1"></h3>
-										<p data-res="indexItem1"></p>
-									</div>
-									<div class="large-6 small-12 columns" data-equalizer-watch>
-                                        <img class="centerImg" alt="Science Camp 2018" src="/assets/img/werwolfkind_klein.png" />
-									</div>
-								</div>
+<div id="box">
+	<div class="grid-container" id="mainContainer">
+		<div id="mainInnerContainer">
+			<div class="grid-x" id="contentContainer">
+				<div class="cell large-11 large-centered">
+					<div class="grid-x firstRow mainPage_item shadowSmall" data-equalizer data-equalizer-on="large">
+						<div class="cell large-12 small-12" >
+                            <div class="grid-x grid-margin-x innerItem">
+                                <div class="cell">
+                                    <h3 data-res="indexHeader1"></h3>
+                                </div>
+                                <div class="cell large-6 small-12" data-equalizer-watch>
+                                    <p data-res="indexItem1"></p>
+                                </div>
+                                <div class="cell large-6 small-12" data-equalizer-watch>
+                                    <p data-res="indexItemFr1"></p>
+                                    <!--<img class="centerImg" alt="Ostercamp 2019" src="/assets/img/oc17.jpg" />-->
+                                </div>
+                            </div>
+						</div>
+					</div>
+					<div class="grid-x followingRow" data-equalizer data-equalizer-on="large">
+						<div class="cell large-6 small-12 largeSameRow" >
+							<div class="mainPage_item shadowSmall" data-equalizer-watch>
+                                <div class="innerItem">
+                                    <h3 data-res="indexHeader2"></h3>
+                                    <p data-res="indexItem2"></p>
+                                    <img class="mainPage_secondRow_img" alt="Werwolf Camp 2019" src="/assets/img/wc19.jpg" />
+                                </div>
 							</div>
-							<div class="row followingRow" data-equalizer data-equalizer-on="large">
-								<div class="large-6 small-12 columns largeSameRow" >
-									<div class="mainPage_item shadowSmall" data-equalizer-watch>
-										<h3 data-res="indexHeader2"></h3>
-										<p data-res="indexItem2"></p>
-                                        <img class="mainPage_secondRow_img" alt="Ausflug Speyer" src="/assets/img/trip18.jpg" />
-									</div>
-								</div>
-								<div class="large-6 small-12 columns largeSameRow" >
-									<div class="mainPage_item shadowSmall" data-equalizer-watch>
-										<h3 data-res="indexHeader3"></h3>
-										<p data-res="indexItem3"></p>
-                                        <!--<img class="mainPage_secondRow_img" alt="educat Logo" src="/assets/img/sc18logo.png" />-->
-									</div>
-								</div>
+						</div>
+						<div class="cell large-6 small-12 largeSameRow" >
+							<div class="mainPage_item shadowSmall" data-equalizer-watch>
+                                <div class="innerItem">
+                                    <h3 data-res="indexHeader3"></h3>
+                                    <p data-res="indexItem3"></p>
+                                    <!--<img class="mainPage_secondRow_img" alt="educat Logo" src="/assets/img/sc18logo.png" />-->
+                                </div>
 							</div>
 						</div>
 					</div>

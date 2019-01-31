@@ -1,165 +1,160 @@
-<div id="side">
-    {{> navigation}}
-    <div id="body">
-        <div id="box">
-            <div class="row" id="mainContainer">
-                <div id="mainInnerContainer">
-                    <div class="row" id="contentContainer">
-                        <div class="large-10 large-centered columns">
-                            <h1 id="sideHeader" data-res="scanmeldungHeader"></h1>
-                            <div class="row eventPageBig_item shadowSmall">
-                                <div class="large-12 columns">
-                                    <p data-res="scanmeldungItem1Str1" />
-                                    <p data-res="scanmeldungItem1Str2" />
+<div id="box">
+    <div class="grid-container" id="mainContainer">
+        <div id="mainInnerContainer">
+            <div class="grid-x" id="contentContainer">
+                <div class="large-10 large-centered cell">
+                    <h1 id="sideHeader" data-res="scanmeldungHeader"></h1>
+                    <div class="grid-x eventPageBig_item shadowSmall">
+                        <div class="large-12 cell">
+                            <p data-res="scanmeldungItem1Str1" />
+                            <p data-res="scanmeldungItem1Str2" />
+                        </div>
+                    </div>
+                    <div class="grid-x eventPageBig_item followingRow">
+                        <form id="signup" method="POST" action="https://script.google.com/macros/s/AKfycbwpu9qFxifbvsTfebhWAvrWT77sK86M3RZuxbklOMTqm6KnbRvP/exec">
+                            <noscript>
+                                <div class="grid-x">
+                                    <p class="error">JavaScript scheint in diesem Bgrid-xser deaktiviert zu sein. Vermutlich funktioniert die Anmeldung daher nicht. Aktivieren Sie JavaScript in den Bgrid-xsereinstellungen.</p>
+                                </div>
+                            </noscript>
+                            <div class="grid-x grid-margin-x" id="dataInputChild">
+                                <div class="large-4 small-12 cell">
+                                    <label>Vorname</label>
+                                    <input name="name" type="text" placeholder="Vorname des Kindes">
+                                </div>
+                                <div class="large-4 small-12 cell">
+                                    <label>Nachname</label>
+                                    <input name="nachname" type="text" placeholder="Nachname des Kindes">
+                                </div>
+                                <div class="large-2 small-12 cell">
+                                    <label>Geburtstag</label>
+                                    <input name="geburtstag" type="text" placeholder="Geburtstag">
+                                </div>
+                                <div class="large-2 small-12 cell">
+                                    <label>Geschlecht</label>
+                                    <select name="geschlecht">
+                                        <option value="w">Weiblich</option>
+                                        <option value="m">Männlich</option>
+                                    </select>
                                 </div>
                             </div>
-                            <div class="row eventPageBig_item followingRow">
-                                <form id="signup" method="POST" action="https://script.google.com/macros/s/AKfycbwpu9qFxifbvsTfebhWAvrWT77sK86M3RZuxbklOMTqm6KnbRvP/exec">
-                                    <noscript>
-                                        <div class="row">
-                                            <p class="error">JavaScript scheint in diesem Browser deaktiviert zu sein. Vermutlich funktioniert die Anmeldung daher nicht. Aktivieren Sie JavaScript in den Browsereinstellungen.</p>
-                                        </div>
-                                    </noscript>
-                                    <div class="row" id="dataInputChild">
-                                        <div class="large-4 small-12 columns">
-                                            <label>Vorname</label>
-                                            <input name="name" type="text" placeholder="Vorname des Kindes">
-                                        </div>
-                                        <div class="large-4 small-12 columns">
-                                            <label>Nachname</label>
-                                            <input name="nachname" type="text" placeholder="Nachname des Kindes">
-                                        </div>
-                                        <div class="large-2 small-12 columns">
-                                            <label>Geburtstag</label>
-                                            <input name="geburtstag" type="text" placeholder="Geburtstag">
-                                        </div>
-                                        <div class="large-2 small-12 columns">
-                                            <label>Geschlecht</label>
-                                            <select name="geschlecht">
-                                                <option value="w">Weiblich</option>
-                                                <option value="m">Männlich</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="large-4 small-12 columns">
-                                            <label>Straße</label>
-                                            <input name="straße" type="text" placeholder="Straße">
-                                        </div>
-                                        <div class="large-2 small-12 columns">
-                                            <label>Hausnummer</label>
-                                            <input name="hausnummer" type="text" placeholder="Hausnummer">
-                                        </div>
-                                        <div class="large-2 small-12 columns">
-                                            <label>PLZ</label>
-                                            <input name="plz" type="text" placeholder="PLZ">
-                                        </div>
-                                        <div class="large-4 small-12 columns">
-                                            <label>Ort</label>
-                                            <input name="ort" type="text" placeholder="Ort">
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="large-6 small-12 columns">
-                                            <label>Name Erziehungsberechtigte/r</label>
-                                            <input name="eltern" type="text" placeholder="Name">
-                                        </div>
-                                        <div class="large-6 small-12 columns">
-                                            <label>E-Mail</label>
-                                            <input name="mail" type="email" placeholder="Mailadresse">
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="large-6 small-12 columns">
-                                            <label>Telefon</label>
-                                            <input name="telefon" type="tel" placeholder="Telefon">
-                                        </div>
-                                        <div class="large-6 small-12 columns">
-                                            <label>Telefon</label>
-                                            <input name="tel freizeit" type="tel" placeholder="Telefon (während der Freizeit, wenn anders)">
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="large-3 small-12 columns" id="dataInputThsirt">
-                                            <label>T-Shirt (optional, 8€)</label>
-                                            <select name="tshirt">
-                                                <option value="none" selected="selected">kein T-Shirt</option>
-                                                <optgroup label="Größe: (jede 8€)">
-                                                    <option value="116">116</option>
-                                                    <option value="128">128</option>
-                                                    <option value="140">140</option>
-                                                    <option value="152">152</option>
-                                                    <option value="164">164</option>
-                                                    <option value="s">S</option>
-                                                    <option value="m">M</option>
-                                                    <option value="l">L</option>
-                                                    <option value="xl">XL</option>
-                                                </optgroup>
-                                            </select>
-                                        </div>
-                                        <div class="large-2 small-12 columns" id="dataInputWeek">
-                                            <label>Wochen</label>
-                                            <input name="woche1" id="checkboxWeek1" type="checkbox"><label for="checkboxWeek1">Woche 1</label><br />
-                                            <input name="woche2" id="checkboxWeek2" type="checkbox"><label for="checkboxWeek2">Woche 2</label>
-                                        </div>
-                                        <div class="large-4 small-12 columns">
-                                            <label>Bei nachträglichen Meldungen zum Shuttlebus können wir keinen Platz garantieren!</label>
-                                            <input name="shuttle" id="checkboxShuttle" type="checkbox"><label for="checkboxShuttle">Shuttlebus</label>
-                                        </div>
-                                        <div class="large-3 small-12 columns">
-                                            <label>Frühbetreuung ab 8 Uhr</label>
-                                            <input name="fruehbetreuung" id="checkboxEarly" type="checkbox"><label for="checkboxEarly">Frühbetreuung</label>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="large-6 small-12 columns">
-                                            <label>Angaben zu Besonderheiten beim Essen, Allergien, etc.</label>
-                                            <textarea name="allergien"></textarea>
-                                        </div>
-                                        <div class="large-6 small-12 columns">
-                                            <label>Gruppenwünsche mit Freund*innen</label>
-                                            <textarea name="gruppen" placeholder="Wir versuchen, alle Wünsche zu berücksichtigen"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="large-6 small-12 columns">
-                                            <label>Uns ist es ein Anliegen, dass sich alle wohlfühlen. Was braucht es dafür?</label>
-                                            <textarea name="wünsche" placeholder="Wünsche, Ideen, Fragen"></textarea>
-                                        </div>
-                                        <div class="large-6 small-12 columns">
-                                            <label>Wie sind Sie auf das Science Camp aufmerksam geworden?</label>
-                                            <textarea name="werbung"></textarea>
-                                        </div>
-                                    </div>
-                                    <div id="moreInputContainer" moreSignups="0">
+                            <div class="grid-x grid-margin-x">
+                                <div class="large-4 small-12 cell">
+                                    <label>Straße</label>
+                                    <input name="straße" type="text" placeholder="Straße">
+                                </div>
+                                <div class="large-2 small-12 cell">
+                                    <label>Hausnummer</label>
+                                    <input name="hausnummer" type="text" placeholder="Hausnummer">
+                                </div>
+                                <div class="large-2 small-12 cell">
+                                    <label>PLZ</label>
+                                    <input name="plz" type="text" placeholder="PLZ">
+                                </div>
+                                <div class="large-4 small-12 cell">
+                                    <label>Ort</label>
+                                    <input name="ort" type="text" placeholder="Ort">
+                                </div>
+                            </div>
+                            <div class="grid-x grid-margin-x">
+                                <div class="large-6 small-12 cell">
+                                    <label>Name Erziehungsberechtigte/r</label>
+                                    <input name="eltern" type="text" placeholder="Name">
+                                </div>
+                                <div class="large-6 small-12 cell">
+                                    <label>E-Mail</label>
+                                    <input name="mail" type="email" placeholder="Mailadresse">
+                                </div>
+                            </div>
+                            <div class="grid-x grid-margin-x">
+                                <div class="large-6 small-12 cell">
+                                    <label>Telefon</label>
+                                    <input name="telefon" type="tel" placeholder="Telefon">
+                                </div>
+                                <div class="large-6 small-12 cell">
+                                    <label>Telefon</label>
+                                    <input name="tel freizeit" type="tel" placeholder="Telefon (während der Freizeit, wenn anders)">
+                                </div>
+                            </div>
+                            <div class="grid-x grid-margin-x">
+                                <div class="large-3 small-12 cell" id="dataInputThsirt">
+                                    <label>T-Shirt (optional, 8€)</label>
+                                    <select name="tshirt">
+                                        <option value="none" selected="selected">kein T-Shirt</option>
+                                        <optgroup label="Größe: (jede 8€)">
+                                            <option value="116">116</option>
+                                            <option value="128">128</option>
+                                            <option value="140">140</option>
+                                            <option value="152">152</option>
+                                            <option value="164">164</option>
+                                            <option value="s">S</option>
+                                            <option value="m">M</option>
+                                            <option value="l">L</option>
+                                            <option value="xl">XL</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                                <div class="large-2 small-12 cell" id="dataInputWeek">
+                                    <label>Wochen</label>
+                                    <input name="woche1" id="checkboxWeek1" type="checkbox"><label for="checkboxWeek1">Woche 1</label><br />
+                                    <input name="woche2" id="checkboxWeek2" type="checkbox"><label for="checkboxWeek2">Woche 2</label>
+                                </div>
+                                <div class="large-4 small-12 cell">
+                                    <label>Bei nachträglichen Meldungen zum Shuttlebus können wir keinen Platz garantieren!</label>
+                                    <input name="shuttle" id="checkboxShuttle" type="checkbox"><label for="checkboxShuttle">Shuttlebus</label>
+                                </div>
+                                <div class="large-3 small-12 cell">
+                                    <label>Frühbetreuung ab 8 Uhr</label>
+                                    <input name="fruehbetreuung" id="checkboxEarly" type="checkbox"><label for="checkboxEarly">Frühbetreuung</label>
+                                </div>
+                            </div>
+                            <div class="grid-x grid-margin-x">
+                                <div class="large-6 small-12 cell">
+                                    <label>Angaben zu Besonderheiten beim Essen, Allergien, etc.</label>
+                                    <textarea name="allergien"></textarea>
+                                </div>
+                                <div class="large-6 small-12 cell">
+                                    <label>Gruppenwünsche mit Freund*innen</label>
+                                    <textarea name="gruppen" placeholder="Wir versuchen, alle Wünsche zu berücksichtigen"></textarea>
+                                </div>
+                            </div>
+                            <div class="grid-x grid-margin-x">
+                                <div class="large-6 small-12 cell">
+                                    <label>Uns ist es ein Anliegen, dass sich alle wohlfühlen. Was braucht es dafür?</label>
+                                    <textarea name="wünsche" placeholder="Wünsche, Ideen, Fragen"></textarea>
+                                </div>
+                                <div class="large-6 small-12 cell">
+                                    <label>Wie sind Sie auf das Science Camp aufmerksam geworden?</label>
+                                    <textarea name="werbung"></textarea>
+                                </div>
+                            </div>
+                            <div id="moreInputContainer" moreSignups="0">
 
-                                    </div>
-                                    <div class="row hidden" id="mailInvalid">
-                                        <div class="large-12 columns">
-                                            <p class="error">E-Mail Adresse ist nicht valid!</p>
-                                        </div>
-                                    </div>
-                                    <div class="row hidden" id="checkboxInvalid">
-                                        <div class="large-12 columns">
-                                            <p class="error">Shuttle und Frühbetreuung können nicht zusammen gewählt werden!</p>
-                                        </div>
-                                    </div>
-                                    <div class="row" id="controlInput">
-                                        <div class="large-6 columns">
-                                            <a href="#controlInput" id="moreSignup" onclick="addSignupField()">weiteres Geschwisterkind</a>
-                                        </div>
-                                        <div class="large-6 columns">
-                                            <input type="submit" value="Abschicken">
-                                        </div>
-                                    </div>
-                                </form>
-                                <div class="hidden" id="signupClicked">
-                                    <p>Anmeldung abgeschickt. Sobald die Daten erfolgreich eingegangen sind, wird automatisch eine EMail an die eingetragene Adresse geschickt.</p>
-                                </div>
-                                <div class="hidden" id="signupFinished">
-                                    <p>Anmeldung eingegangen. Sollten wir keine Rückfragen mehr haben, schicken wir Ihnen eine Bestätigung per E-Mail. Dies geschieht manuell und kann wenige Tage dauern.</p>
+                            </div>
+                            <div class="grid-x hidden" id="mailInvalid">
+                                <div class="large-12 cell">
+                                    <p class="error">E-Mail Adresse ist nicht valid!</p>
                                 </div>
                             </div>
+                            <div class="grid-x hidden" id="checkboxInvalid">
+                                <div class="large-12 cell">
+                                    <p class="error">Shuttle und Frühbetreuung können nicht zusammen gewählt werden!</p>
+                                </div>
+                            </div>
+                            <div class="grid-x grid-margin-x" id="controlInput">
+                                <div class="large-6 cell">
+                                    <a href="#controlInput" id="moreSignup" onclick="addSignupField()">weiteres Geschwisterkind</a>
+                                </div>
+                                <div class="large-6 cell">
+                                    <input type="submit" value="Abschicken">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="hidden" id="signupClicked">
+                            <p>Anmeldung abgeschickt. Sobald die Daten erfolgreich eingegangen sind, wird automatisch eine EMail an die eingetragene Adresse geschickt.</p>
+                        </div>
+                        <div class="hidden" id="signupFinished">
+                            <p>Anmeldung eingegangen. Sollten wir keine Rückfragen mehr haben, schicken wir Ihnen eine Bestätigung per E-Mail. Dies geschieht manuell und kann wenige Tage dauern.</p>
                         </div>
                     </div>
                 </div>
@@ -167,4 +162,3 @@
         </div>
     </div>
 </div>
-{{> footer}}

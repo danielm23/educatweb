@@ -1,55 +1,85 @@
 ﻿@charset 'utf-8';
+
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+
+// Global styles
 @include foundation-global-styles;
-@include foundation-grid;
-// @include foundation-flex-grid;
-@include foundation-typography;
-@include foundation-button;
 @include foundation-forms;
-// @include foundation-range-input;
-@include foundation-accordion;
-@include foundation-accordion-menu;
-@include foundation-badge;
-@include foundation-breadcrumbs;
+@include foundation-typography;
+
+// Grids (choose one)
+@include foundation-xy-grid-classes;
+@include foundation-grid;
+//@include foundation-flex-classes;
+// @include foundation-flex-grid;
+
+// Generic components
+@include foundation-button;
 @include foundation-button-group;
-@include foundation-callout;
 @include foundation-close-button;
-@include foundation-menu;
-@include foundation-menu-icon;
-@include foundation-drilldown-menu;
-@include foundation-dropdown;
-@include foundation-dropdown-menu;
-@include foundation-flex-video;
 @include foundation-label;
-@include foundation-media-object;
-@include foundation-off-canvas;
-@include foundation-orbit;
-// @include foundation-pagination;
 @include foundation-progress-bar;
-// @include foundation-progress-element;
-// @include foundation-meter-element;
-// @include foundation-slider;
-@include foundation-sticky;
-// @include foundation-reveal;
+@include foundation-slider;
 @include foundation-switch;
 @include foundation-table;
-// @include foundation-tabs;
-@include foundation-thumbnail;
-@include foundation-title-bar;
+// Basic components
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-callout;
+@include foundation-card;
+@include foundation-dropdown;
+@include foundation-pagination;
 @include foundation-tooltip;
+
+// Containers
+@include foundation-accordion;
+@include foundation-media-object;
+@include foundation-orbit;
+@include foundation-responsive-embed;
+@include foundation-tabs;
+@include foundation-thumbnail;
+// Menu-based containers
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-accordion-menu;
+@include foundation-drilldown-menu;
+@include foundation-dropdown-menu;
+
+// Layout components
+@include foundation-off-canvas;
+@include foundation-reveal;
+@include foundation-sticky;
+@include foundation-title-bar;
 @include foundation-top-bar;
-@include foundation-visibility-classes;
+
+// Helpers
 @include foundation-float-classes;
 // @include foundation-flex-classes;
+@include foundation-visibility-classes;
+// @include foundation-prototype-classes;
+
+// Motion UI
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
 
 
 .hero {
@@ -88,279 +118,328 @@
     background: #000;
 }
 
-#side{
-	height: 100%;
-	position: relative;
+#side {
+    height: 100%;
+    position: relative;
 }
 
-#body{
-	height: 100%;
-	//position: absolute;
-	width: 100%;
-	z-index: 1;
+html {
+    height: 100%;
 }
 
-#box{
-	height: 100%;
+body {
+    height: 100%;
 }
 
-#boxWC{
-	height: 100%;
+#body {
+    height: 100%;
+    //position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+#box {
+    height: 100%;
+}
+
+#boxWC {
+    height: 100%;
     background-image: linear-gradient(to top, #e9ebee 0%, #214f8f 40%, #0e1e6b 60%, #041269 80%, black 95%);
 }
 
-#mainContainer{
-	background: #fff;
-	min-height: 100%;
+#mainContainer {
+    background: #fff;
+    min-height: 100%;
 }
 
-#mainContainerWC{
-	background: rgba(0, 31, 69, 0.85);
-	min-height: 100%;
+#mainContainerWC {
+    background: rgba(0, 31, 69, 0.85);
+    min-height: 100%;
 }
 
-#mainInnerContainer{
-	padding-top: 5rem;	//dynamically updated by jQuery
+#contentContainer {
+    padding-top: 2rem;
+    position: relative;
 }
 
-#contentContainer{
-	padding-top: 2rem;
-	padding-left: 2em;
-	position: relative;
-    @media screen and (max-width: $large) {
-       margin-right: 2em;
-       }
+#navContainer {
+    background: $topbar-background;
+
+    @media screen and (min-width: $medium) {
+        position: absolute;
+    }
+
+    width: 100%;
+    margin-top: 0 !important;
 }
 
-#navContainer{
-	background: $topbar-background;
-	position: absolute;
-	z-index: 2;
-	width: 100%;
+#mainMenu {
+    @media screen and (min-width: $large) {
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.8);
+    }
+
+    margin-top: 0 !important;
+    width: 100%;
+    z-index: 2;
+    top: 0 !important;
 }
 
-#stickyNavContainer{
+#navGridContainer {
+    width: 100%;
+}
+
+#mainMenuRight {
+    float: right;
+}
+
+#mainMenuLeft {
+    float: left;
+}
+
+#stickyNavContainer {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, .8);
 }
 
-#nav_img a{
-	padding: 0;
+#nav_img a {
+    padding: 0;
 }
 
-#navMainText a{
-	padding: 0;
-	color: black;
+#navMainText a {
+    padding: 0;
+    color: black;
 }
 
-.vertCent{
+.vertCent {
     @media screen and (min-width: $large) {
-	    position: relative;
-	    top: 50%;
-	    transform: translateY(-50%);
-        }
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
 
-.followingRow{
-	margin-top: 2rem;
-	margin-bottom: 1rem;
+.followingRow {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
-.followingRow_bigPage{
-	margin-top: 3rem;
-	margin-bottom: 1rem;
+.followingRow_bigPage {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
-.mainPage_secondRow_img{
-	max-width: 80%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+.mainPage_secondRow_img {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.mainPage_item{
-	background: #F8F8F8;
-	padding: 1rem;
-	//height: 100%;
-	//border: 1px solid #f1f1f1;
-}
-
-.mainPage_item h3{
-	font-family: 'Caveat', cursive;
-}
-
-h1{
-	font-family: 'Caveat', cursive;
-    text-align: center;
-	font-size: 420%;
-}
-
-#sideHeader{
-	margin-bottom: 0.5em;
-	color: $accent3;
-}
-
-#sideHeaderWC{
-	margin-bottom: 0.5em;
-	color: $accent1;
-}
-
-#veraNext_h p{
-	font-size: 200%;
-	text-align: center;
-}
-
-#veraNext_h i{
-	color: $iconColor;
-}
-
-#veraNextContent{
-	font-size: 150%;
-}
-
-#nextEvents{
-	background-color: $green100;
-	padding-top: 1em;
-}
-
-#commonEvents h3{
-	font-family: 'Caveat', cursive;
-}
-
-.eventPage_item{
-	background: #F8F8F8;
-	padding: 1rem;
-	height: 100%;
-	border: 1px solid #f1f1f1;
-}
-
-.eventPageBig_mainImg{
-	width: 100%;
-	padding-top: 1em;
-	padding-bottom: 2em;
-}
-
-.eventPageBig_slider{
+.mainPage_item {
     background: #F8F8F8;
-	margin-left: 5em;
+    padding: 1rem;
+    //height: 100%;
+    //border: 1px solid #f1f1f1;
+}
+
+.mainPage_item h3 {
+    font-family: 'Caveat', cursive;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 420%;
+}
+
+#sideHeader {
+    margin-bottom: 0.5em;
+    color: $accent3;
+
+    @media screen and (max-width: $medium) {
+        font-size: 380%;
+    }
+}
+
+#sideHeaderWC {
+    margin-bottom: 0.5em;
+    color: $accent1;
+
+    @media screen and (max-width: $medium) {
+        font-size: 380%;
+    }
+}
+
+#veraNext_h p {
+    font-size: 200%;
+    text-align: center;
+}
+
+#veraNext_h i {
+    color: $iconColor;
+}
+
+#veraNextContent {
+    font-size: 150%;
+}
+
+#nextEvents {
+    background-color: $green100;
+    padding-top: 1em;
+}
+
+#commonEvents h3 {
+    font-family: 'Caveat', cursive;
+}
+
+.eventPage_item {
+    background: #F8F8F8;
+    padding: 1rem;
+    height: 100%;
+    border: 1px solid #f1f1f1;
+}
+
+.eventPageBig_mainImg {
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    align-self: center;
+}
+
+.eventPageBig_slider {
+    background: #F8F8F8;
+    margin-left: 5em;
     margin-right: 5em;
     padding: 1rem;
 }
 
-.eventPageBig_item{
-	background: #F8F8F8;
-	padding: 1rem;
-	//height: 100%;
-	//border: 1px solid #f1f1f1;
+.eventPageBig_item {
+    background: #F8F8F8;
+    padding: 1rem;
+    //height: 100%;
+    //border: 1px solid #f1f1f1;
 }
 
-.shadowSmall{
-	box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+.shadowSmall {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .8);
 }
 
-.shadowBig{
-	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+.shadowBig {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
-#eventPageBig_itemImg{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+#eventPageBig_itemImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.eventPageBig_item_h{
-	color: $iconColor;
-	font-family: 'Caveat', cursive;
-	font-size: 380%;
-	padding-left: 0.2em;
-}
-
-.eventPageBig_item_h2{
-	color: $accent4;
-	font-family: 'Caveat', cursive;
-	font-size: 180%;
-	padding-left: 0.2em;
-    padding-top: 1em;
-}
-
-.eventPageBig_item_p{
-	padding-left: 1em;
-	padding-right: 1em;
-}
-
-
-.googlemaps{
-	 width: 100%;
-	 //height: 100%;
-	 frameborder: 0;
-	 border: 0; 
-}
-
-.accent1{
-	color: $accent1;
-}
-
-.accent2{
-	color: $accent2;
-}
-
-.accent3{
-	color: $accent3;
-}
-
-.accent4{
-	color: $accent4;
-}
-
-.accent5{
-	color: $accent5;
-}
-
-.accent6{
-	color: $accent6;
-}
-
-.circularImg{
-	border-radius: 50%;
-	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-}
-
-.teamName{
-	text-align: center;
-	font-size: 150%;
-	font-weight: bold;
-	padding-top: 1em;
-}
-
-.teamText{
-	text-align: center;
-}
-
-.followingTeamRow{
-    @media screen and (min-width: $large){
-	    padding-top: 2em;
+.eventPageBig_item_h {
+    color: $iconColor;
+    font-family: 'Caveat', cursive;
+    padding-left: 0.2em;
+    
+    font-size: 7vh;
+    @media screen and (min-width: $medium) {
+        font-size: 380%;
     }
 }
 
-.largeSameRow{
+.smallerHeaderOnMobile {
     @media screen and (max-width: $medium) {
-	    padding-bottom: 2em;
-        }
+        font-size: 4vh;
+    }
 }
 
-.centerImg{
+.eventPageBig_item_h2 {
+    color: $accent4;
+    font-family: 'Caveat', cursive;
+    font-size: 180%;
+    padding-left: 0.2em;
+    padding-top: 1em;
+}
+
+.eventPageBig_item_p {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+.googlemaps {
+    width: 100%;
+    //height: 100%;
+    frameborder: 0;
+    border: 0;
+}
+
+.accent1 {
+    color: $accent1;
+}
+
+.accent2 {
+    color: $accent2;
+}
+
+.accent3 {
+    color: $accent3;
+}
+
+.accent4 {
+    color: $accent4;
+}
+
+.accent5 {
+    color: $accent5;
+}
+
+.accent6 {
+    color: $accent6;
+}
+
+.circularImg {
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.teamName {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+.teamText {
+    text-align: center;
+}
+
+.followingTeamRow {
+    @media screen and (min-width: $large) {
+        padding-top: 2em;
+    }
+}
+
+.largeSameRow {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    @media screen and (max-width: $medium) {
+        padding-bottom: 2em;
+    }
+}
+
+.centerImg {
     display: block;
     margin: 0 auto;
 }
 
-.centerText{
+.centerText {
     text-align: center;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
-.error{
+.error {
     color: red;
     text-align: center;
     font-size: 150%;
@@ -374,10 +453,10 @@ h1{
     margin: 0 -10px;
 }
 
-.slick-track{
+.slick-track {
     display: flex;
 
-    .slick-slide{
+    .slick-slide {
         display: flex;
         height: auto;
         align-items: center; //optional
@@ -385,27 +464,31 @@ h1{
     }
 }
 
-.wcItem{
+.wcItem {
     background: rgba(0, 6, 25, 0.91);
     color: rgba(133, 133, 133, 0.80);
 }
 
-.wcItem label{
+.wcItem label {
     color: rgba(133, 133, 133, 0.80);
 }
 
-.socialMediaLogo{
+.socialMediaLogo {
     padding: 0em 0.5em 0em 0.5em;
 }
 
-#fbLogo a{
+#fbLogo a {
     padding: 0;
 }
 
-#igLogo a{
+#igLogo a {
     padding: 0;
 }
 
-#ytLogo a{
+#ytLogo a {
     padding: 0;
+}
+
+.innerItem {
+    margin: 0.5rem 1.5rem 0.5rem 1.5rem;
 }

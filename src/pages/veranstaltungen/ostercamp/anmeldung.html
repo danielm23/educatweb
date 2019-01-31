@@ -1,36 +1,36 @@
 <div id="box">
-    <div class="grid-container" id="mainContainerWC">
+    <div class="row" id="mainContainer">
         <div id="mainInnerContainer">
-            <div class="grid-x" id="contentContainer">
-                <div class="large-10 large-centered cell">
-                    <h1 id="sideHeaderWC" data-res="wcanmeldungHeader"></h1>
-                    <div class="grid-x eventPageBig_item wcItem shadowBig">
-                        <div class="large-12 cell">
-                            <p data-res="wcanmeldungItem1Str1" />
-                            <p data-res="wcanmeldungItem1Str2" />
+            <div class="row" id="contentContainer">
+                <div class="large-10 large-centered columns">
+                    <h1 id="sideHeader" data-res="ocanmeldungHeader"></h1>
+                    <div class="row eventPageBig_item shadowSmall">
+                        <div class="large-12 columns">
+                            <p data-res="ocanmeldungItem1Str1" />
+                            <p data-res="ocanmeldungItem1Str2" />
                         </div>
                     </div>
-                    <div class="grid-x eventPageBig_item wcItem followingRow">
-                        <form id="signup" method="POST" action="https://script.google.com/macros/s/AKfycbyjV9-dHyZz-WP8QE_KjOmZ6uZML5QRHltQBygeQA-jdQwcVSE/exec">
+                    <div class="row eventPageBig_item followingRow">
+                        <form id="signup" method="POST" action="https://script.google.com/macros/s/AKfycbwQUehO61x0chXs63g1CF9Dvz8ByuaXnHRcm47qMIDfnc4inRQA/exec">
                             <noscript>
-                                <div class="grid-x">
+                                <div class="row">
                                     <p class="error">JavaScript scheint in diesem Brwoser deaktiviert zu sein. Vermutlich funktioniert die Anmeldung daher nicht. Aktivieren Sie JavaScript in den Browsereinstellungen.</p>
                                 </div>
                             </noscript>
-                            <div class="grid-x grid-margin-x" id="dataInputChild">
-                                <div class="large-4 small-12 cell">
+                            <div class="row" id="dataInputChild">
+                                <div class="large-4 small-12 columns">
                                     <label>Vorname</label>
                                     <input name="name" type="text" placeholder="Vorname des Kindes">
                                 </div>
-                                <div class="large-4 small-12 cell">
+                                <div class="large-4 small-12 columns">
                                     <label>Nachname</label>
                                     <input name="nachname" type="text" placeholder="Nachname des Kindes">
                                 </div>
-                                <div class="large-2 small-12 cell">
+                                <div class="large-2 small-12 columns">
                                     <label>Geburtstag</label>
                                     <input name="geburtstag" type="text" placeholder="Geburtstag">
                                 </div>
-                                <div class="large-2 small-12 cell">
+                                <div class="large-2 small-12 columns">
                                     <label>Geschlecht</label>
                                     <select name="geschlecht">
                                         <option value="w">Weiblich</option>
@@ -38,44 +38,44 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="grid-x grid-margin-x">
-                                <div class="large-4 small-12 cell">
+                            <div class="row">
+                                <div class="large-4 small-12 columns">
                                     <label>Straße</label>
                                     <input name="straße" type="text" placeholder="Straße">
                                 </div>
-                                <div class="large-2 small-12 cell">
+                                <div class="large-2 small-12 columns">
                                     <label>Hausnummer</label>
                                     <input name="hausnummer" type="text" placeholder="Hausnummer">
                                 </div>
-                                <div class="large-2 small-12 cell">
+                                <div class="large-2 small-12 columns">
                                     <label>PLZ</label>
                                     <input name="plz" type="text" placeholder="PLZ">
                                 </div>
-                                <div class="large-4 small-12 cell">
+                                <div class="large-4 small-12 columns">
                                     <label>Ort</label>
                                     <input name="ort" type="text" placeholder="Ort">
                                 </div>
                             </div>
-                            <div class="grid-x grid-margin-x">
-                                <div class="large-4 small-12 cell">
+                            <div class="row">
+                                <div class="large-4 small-12 columns">
                                     <label>Name Erziehungsberechtigte/r</label>
                                     <input name="eltern" type="text" placeholder="Name">
                                 </div>
-                                <div class="large-4 small-12 cell">
+                                <div class="large-4 small-12 columns">
                                     <label>E-Mail</label>
                                     <input name="mail" type="email" placeholder="Mailadresse">
                                 </div>
-                                <div class="large-4 small-12 cell">
+                                <div class="large-4 small-12 columns">
                                     <label>Telefon</label>
                                     <input name="telefon" type="tel" placeholder="Telefon">
                                 </div>
                             </div>
-                            <div class="grid-x grid-margin-x">
-                                <div class="large-6 small-12 cell">
+                            <div class="row">
+                                <div class="large-6 small-12 columns">
                                     <label>Angaben zu Besonderheiten beim Essen, Allergien, etc.</label>
                                     <textarea name="allergien"></textarea>
                                 </div>
-                                <div class="large-6 small-12 cell">
+                                <div class="large-6 small-12 columns">
                                     <label>Uns ist es ein Anliegen, dass sich alle wohlfühlen. Was braucht es dafür?</label>
                                     <textarea name="wünsche" placeholder="Wünsche, Ideen, Fragen"></textarea>
                                 </div>
@@ -83,21 +83,21 @@
                             <div id="moreInputContainer" moreSignups="0">
 
                             </div>
-                            <div class="grid-x hidden" id="mailInvalid">
-                                <div class="large-12 cell">
+                            <div class="row hidden" id="mailInvalid">
+                                <div class="large-12 columns">
                                     <p class="error">E-Mail Adresse ist nicht valid!</p>
                                 </div>
                             </div>
-                            <div class="grid-x grid-margin-x" id="controlInput">
-                                <div class="large-6 cell">
-                                    <a href="#controlInput" id="moreSignup" onclick="addSignupFieldWC()">weiteres Geschwisterkind</a>
+                            <div class="row" id="controlInput">
+                                <div class="large-6 columns">
+                                    <a href="#controlInput" id="moreSignup">weiteres Geschwisterkind</a>
                                 </div>
-                                <div class="large-6 cell">
+                                <div class="large-6 columns">
                                     <input type="submit" value="Abschicken">
                                 </div>
                             </div>
-                            <div class="grid-x" id="submitInfo">
-                                <div class="large-centered centerText cell">
+                            <div class="row" id="submitInfo">
+                                <div class="large-centered centerText columns">
                                     <p>Nach dem Abschicken verschicken wir eine automatische Empfangsmail.</p>
                                 </div>
                             </div>
