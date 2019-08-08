@@ -32,11 +32,11 @@ var resources = {
     "navContactH": "Kontakt/Impressum",
     //Main side
     "indexHeader1": "Science Camp 2019",
-    "indexItem1": "Wie groß bist Du? Der Kopf einer Ameise ist nur zwei Millimeter groß und der nächste Stern fast vier Lichtjahre entfernt. Mit Zahlen kann man viel erklären: Ganz winzige und sehr große Dinge. Wieviele Sterne gibt es eigentlich? Wieviele Zahlen kennt ein Computer? Wie viel ist unendlich? Dieses Jahr geht es um Zahlen - und das alles ohne zu rechnen. Wir schauen uns Planeten und Galaxien an, basteln Spiele mit unseren Computern und es gibt wieder viel zum Erleben und Ausprobieren. Die erste Anmeldephase läuft vom 10. bis 20. April. Weiteres auf der <a href=\"/veranstaltungen/sciencecamp/\">Veranstaltungsseite</a>.",
+    "indexItem1": "Wie groß bist Du? Der Kopf einer Ameise ist nur zwei Millimeter groß und der nächste Stern fast vier Lichtjahre entfernt. Mit Zahlen kann man viel erklären: Ganz winzige und sehr große Dinge. Wieviele Sterne gibt es eigentlich? Wieviele Zahlen kennt ein Computer? Wie viel ist unendlich? Dieses Jahr geht es um Zahlen - und das alles ohne zu rechnen. Wir schauen uns Planeten und Galaxien an, basteln Spiele mit unseren Computern und es gibt wieder viel zum Erleben und Ausprobieren. Weitere Informationen auf der <a href=\"/veranstaltungen/sciencecamp/\">Veranstaltungsseite</a>.",
     "indexHeader2": "Rückblick Ostercamp Frankreich",
     "indexItem2": "In der Woche vor Ostern fand unser Ostercamp im französischen Reillon in der Nähe von Nancy statt. Neben vielen gemeinsamen Spielen wurde die Stadt Luneville besucht und verschiedene französische Gerichte gekocht.",
     "indexHeader3": "Anmeldungsstand Science Camp",
-    "indexItem3": "Die erste Anmeldephase ist abgeschlossen und wir haben allen Anmeldungen aus dieser Phase Rückmeldung gegeben. Die ersten 40 Anmeldungen pro Woche konnten wir bereits bestätigen, wir gehen aber davon aus, auch alle weitere Anmeldungen aus der ersten Phase annehmen zu können. Weitere Anmeldungen sind jetzt nur noch auf die Warteliste möglich.<br>Hinweis an Anmeldungen von Flüchtlingskinder: Mit uns direkt abgesprochene Anmeldungen von Kindern mit Fluchthintergrund sind weiterhin möglich. Nehmen Sie gerne, falls noch nicht geschehen, Kontakt mit uns auf.",
+    "indexItem3": "Es sind keine weiteren Anmeldungen mehr möglich. Alle Eltern von angemeldeten Kindern und Jugendlichen haben per Mail Rückmeldung sowie weitere Informationen einschließlich des Teilnehmerbeitrags bekommen.<br>Wir freuen uns auf das diesjährige Science Camp!",
     //Wir
     "teamStr1": "Wir sind eine Gruppe junger Menschen, die einerseits in ganz verschiedenen wissenschaftlichen Themen interessiert sind und andererseits sehr viel Spaß an der Arbeit mit Kinder haben. Einige sind aus Geislingen und Umgebung, längst aber auch darüber hinaus. Waren es anfangs noch ein paar Kommilitonen, die dazu kamen, sind heute viele aus ganz Deutschland dabei.",
     "teamStr2": "Die Teamzusammensetzung der Betreuer- und Organisationsteams der einzelnen Veranstaltungen variiert dabei stark, je nach Zeit und Lust. So kommen auch ständig neue Menschen dazu, sei es aus dem Freundes- und Bekanntenkreis, ehemalige Teilnehmerinnen und Teilnehmer oder auch Personen, die zuvor nichts mit uns zu tun hatten.",
@@ -268,7 +268,7 @@ var resources = {
     "scItem6Str1p2": "Online-Formular",
     "scItem6Str1p3": ". Die erste Anmeldephase ist vorbei. Weitere Anmeldungen können wir nur noch auf die Warteliste aufnehmen.<br>Hinweis an Anmeldungen von Flüchtlingskinder: Mit uns direkt abgesprochene Anmeldungen von Kindern mit Fluchthintergrund sind weiterhin möglich. Nehmen Sie gerne, falls noch nicht geschehen, Kontakt mit uns auf.",
     "scItem6Str2": "Vor der Freizeit versenden wir nochmals detaillierte Informationen zu Details, sowie der Bezahlung des Freizeitbeitrages. Bei Fragen sind wir selbstverständlich erreichbar.",
-    "scItem6Str4": "Um zukünftig rechtzeitig über anstehende Veranstaltungen von uns zu wissen, können Sie sich für unseren <a href='/verein/newsletter.html'>Newsletter</a> anmelden.",
+    "scItem6Str4": "Die Anmeldung ist beendet. Es sind keine Plätze mehr verfügbar. Um zukünftig rechtzeitig über anstehende Veranstaltungen von uns zu wissen, können Sie sich für unseren <a href='/verein/newsletter.html'>Newsletter</a> anmelden.",
     "scItem6Mail": "kontakt@educatweb.de",
     "scItemTeamHeader": "Das Team",
     "scItemParentsHeader": "Für Eltern",
