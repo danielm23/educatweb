@@ -6,12 +6,14 @@
                     <h1 id="sideHeader" data-res="scanmeldungHeader"></h1>
                     <div class="grid-x eventPageBig_item shadowSmall">
                         <div class="large-12 cell">
+                            <p class="accent5" data-res="scanmeldungItem1Current" />
                             <p data-res="scanmeldungItem1Str1" />
                             <p data-res="scanmeldungItem1Str2" />
+                            <p data-res="scanmeldungItem1Str3" />
                         </div>
                     </div>
                     <div class="grid-x eventPageBig_item followingRow">
-                        <form id="signup" method="POST" action="https://script.google.com/macros/s/AKfycbwpu9qFxifbvsTfebhWAvrWT77sK86M3RZuxbklOMTqm6KnbRvP/exec">
+                        <form id="signup" method="POST" action="https://script.google.com/macros/s/AKfycbyM30iN7GiABGxd01VBmT_-WLZWepRUj_GAyWJyFXhKcSosif8/exec">
                             <noscript>
                                 <div class="grid-x">
                                     <p class="error">JavaScript scheint in diesem Bgrid-xser deaktiviert zu sein. Vermutlich funktioniert die Anmeldung daher nicht. Aktivieren Sie JavaScript in den Bgrid-xsereinstellungen.</p>
@@ -94,12 +96,12 @@
                                         </optgroup>
                                     </select>
                                 </div>
-                                <div class="large-2 small-12 cell" id="dataInputWeek">
+                                <div class="large-3 small-12 cell" id="dataInputWeek">
                                     <label>Wochen</label>
-                                    <input name="woche1" id="checkboxWeek1" type="checkbox"><label for="checkboxWeek1">Woche 1</label><br />
-                                    <input name="woche2" id="checkboxWeek2" type="checkbox"><label for="checkboxWeek2">Woche 2</label>
+                                    <input name="woche1" id="checkboxWeek1" type="checkbox"><label for="checkboxWeek1">Woche 1 (12.-16. August)</label><br />
+                                    <input name="woche2" id="checkboxWeek2" type="checkbox"><label for="checkboxWeek2">Woche 2 (19.-23. August)</label>
                                 </div>
-                                <div class="large-4 small-12 cell">
+                                <div class="large-3 small-12 cell">
                                     <label>Bei nachträglichen Meldungen zum Shuttlebus können wir keinen Platz garantieren!</label>
                                     <input name="shuttle" id="checkboxShuttle" type="checkbox"><label for="checkboxShuttle">Shuttlebus</label>
                                 </div>
@@ -141,6 +143,9 @@
                                     <p class="error">Shuttle und Frühbetreuung können nicht zusammen gewählt werden!</p>
                                 </div>
                             </div>
+                            <div class="grid-x">
+                                <p>Mit dem Abschicken erklären Sie sich mit unseren <a href="/assets/Datenschutzhinweise_Freizeiten_Educat.pdf" target="_blank" rel="noopener noreferrer">Datenschutzbestimmungen</a> gemäß Art. 13 DSGVO einverstanden!</p>
+                            </div>
                             <div class="grid-x grid-margin-x" id="controlInput">
                                 <div class="large-6 cell">
                                     <a href="#controlInput" id="moreSignup" onclick="addSignupField()">weiteres Geschwisterkind</a>
@@ -154,7 +159,7 @@
                             <p>Anmeldung abgeschickt. Sobald die Daten erfolgreich eingegangen sind, wird automatisch eine EMail an die eingetragene Adresse geschickt.</p>
                         </div>
                         <div class="hidden" id="signupFinished">
-                            <p>Anmeldung eingegangen. Sollten wir keine Rückfragen mehr haben, schicken wir Ihnen eine Bestätigung per E-Mail. Dies geschieht manuell und kann wenige Tage dauern.</p>
+                            <p>Anmeldung eingegangen und automatische Eingangsmail verschickt. Nach Ende der Anmeldephase melden wir uns.</p>
                         </div>
                     </div>
                 </div>

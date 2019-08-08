@@ -18,8 +18,8 @@ var resources = {
     //Navigation
     "navTitle": "Educat e.V.",
     "navEventH": "Veranstaltungen",
-    "navEventSub1": "Ostercamp 2019",
-    "navEventSub2": "Werwolf Camp 2019",
+    "navEventSub1": "Science Camp 2019",
+    "navEventSub2": "Ostercamp 2019",
     "navEventSubArchive": "Archiv",
     "navTeamH": "Wir",
     "navTeamTeam": "Team",
@@ -31,13 +31,12 @@ var resources = {
     "navGuildNewsletter": "Newsletter",
     "navContactH": "Kontakt/Impressum",
     //Main side
-    "indexHeader1": "Ostercamp 2019 Frankreich",
-    "indexItem1": "In diesem Jahr verwirklichen wir eines unserer länger ersehnten Vorhaben und reisen mit unserem Ostercamp nach Frankreich. Ziel ist ein kleines Dorf unweit von Lunéville. Es wird auch dieses Jahr wieder ganz unterschiedliche Workshops und Spiele geben. Wir haben vor Brot zu backen, eine Käserei zu besuchen und Dinge aus Holz zu basteln. Und es wird einen regen Austausch zwischen beiden Ländern und Sprachen geben. Keine Angst: Die Kinder und Jugendlichen müssen dazu kein Französisch können.<br>Weiter Informationen und die Anmeldung findet sich auf der <a href=\"/veranstaltungen/ostercamp/\">Veranstaltungsseite</a>.",
-    "indexHeader2": "Rückblick Werwolf Camp",
-    "indexItem2": "Gleich zu Beginn des neuen Jahres fand unser zweites Werwolf Camp statt. In Stetten ob Lontal bei Niederstotzingen konnten wir neben vielen spannenden Werwolf-Runden auch den schönen Neuschnee genießen.",
-    "indexHeader3": "Science Camp 2019",
-    "indexItem3": "Für das Science Camp 2019 gibt es bereits einen <b>vorläufigen</b> Termin. Dies ist der 12. August bis 23. August 2019. Bislang ist dies jedoch nur ein vorläufiger Termin und könnte sich noch ändern, auch wenn wir davon derzeit nicht ausgehen.",
-    "indexItemFr1": "Nous avons déjà fait de nombreux camps avec les enfants, en Allemagne. Nous rêvions de pouvoir partager 5 jours de camp avec des enfants français. Pour la première fois cette année, nous pourrons nous amuser, échanger et faire des sorties entre français et allemands. Si vous parlez quelques mots d'allemands c'est encore mieux, mais ne vous en faites pas il y a toujours moyens de se comprendre.<br>Vous trouverez plus d'informations et les inscriptions sur la <a href=\"/veranstaltungen/ostercamp/\">page de l'événement</a>.",
+    "indexHeader1": "Science Camp 2019",
+    "indexItem1": "Wie groß bist Du? Der Kopf einer Ameise ist nur zwei Millimeter groß und der nächste Stern fast vier Lichtjahre entfernt. Mit Zahlen kann man viel erklären: Ganz winzige und sehr große Dinge. Wieviele Sterne gibt es eigentlich? Wieviele Zahlen kennt ein Computer? Wie viel ist unendlich? Dieses Jahr geht es um Zahlen - und das alles ohne zu rechnen. Wir schauen uns Planeten und Galaxien an, basteln Spiele mit unseren Computern und es gibt wieder viel zum Erleben und Ausprobieren. Die erste Anmeldephase läuft vom 10. bis 20. April. Weiteres auf der <a href=\"/veranstaltungen/sciencecamp/\">Veranstaltungsseite</a>.",
+    "indexHeader2": "Rückblick Ostercamp Frankreich",
+    "indexItem2": "In der Woche vor Ostern fand unser Ostercamp im französischen Reillon in der Nähe von Nancy statt. Neben vielen gemeinsamen Spielen wurde die Stadt Luneville besucht und verschiedene französische Gerichte gekocht.",
+    "indexHeader3": "Anmeldungsstand Science Camp",
+    "indexItem3": "Die erste Anmeldephase ist abgeschlossen und wir haben allen Anmeldungen aus dieser Phase Rückmeldung gegeben. Die ersten 40 Anmeldungen pro Woche konnten wir bereits bestätigen, wir gehen aber davon aus, auch alle weitere Anmeldungen aus der ersten Phase annehmen zu können. Weitere Anmeldungen sind jetzt nur noch auf die Warteliste möglich.<br>Hinweis an Anmeldungen von Flüchtlingskinder: Mit uns direkt abgesprochene Anmeldungen von Kindern mit Fluchthintergrund sind weiterhin möglich. Nehmen Sie gerne, falls noch nicht geschehen, Kontakt mit uns auf.",
     //Wir
     "teamStr1": "Wir sind eine Gruppe junger Menschen, die einerseits in ganz verschiedenen wissenschaftlichen Themen interessiert sind und andererseits sehr viel Spaß an der Arbeit mit Kinder haben. Einige sind aus Geislingen und Umgebung, längst aber auch darüber hinaus. Waren es anfangs noch ein paar Kommilitonen, die dazu kamen, sind heute viele aus ganz Deutschland dabei.",
     "teamStr2": "Die Teamzusammensetzung der Betreuer- und Organisationsteams der einzelnen Veranstaltungen variiert dabei stark, je nach Zeit und Lust. So kommen auch ständig neue Menschen dazu, sei es aus dem Freundes- und Bekanntenkreis, ehemalige Teilnehmerinnen und Teilnehmer oder auch Personen, die zuvor nichts mit uns zu tun hatten.",
@@ -58,7 +57,7 @@ var resources = {
     "teamMeb6Name": "Rafael",
     "teamMeb6Str": "»Spielen, Experimentieren und Lernen gehört für mich schon immer zusammen und bereitet mir große Freude, die ich gerne mit allen teile«",
     "teamMeb7Name": "Leonie",
-    "teamMeb7Str": "",
+    "teamMeb7Str": "»Ein tolles Team, viel Spaß, spielerisch Neues lernen und schöne Erfahrungen fürs Leben - Das ist, was das Science Camp so einzigartig macht!«",
     "teamMeb8Name": "Marcel",
     "teamMeb8Str": "»Die Kombination aus einem super netten Team und begeisterten Kindern ist einfach wunderbar!«",
     "teamMeb9Name": "Johanna",
@@ -70,7 +69,25 @@ var resources = {
     "teamMeb12Name": "Cole",
     "teamMeb12Str": "",
     "teamMeb13Name": "Elise",
-    "teamMeb13Str": "",
+    "teamMeb13Str": "»Wunderbaren Kindern und ein tolles Team sind die Zutaten um eine schöne Mischung des Glücks, des Lächelns und der Begegnung zu bekommen.«",
+    "teamMeb14Name": "Abigaël",
+    "teamMeb14Str": "",
+    "teamMeb15Name": "Kerstin",
+    "teamMeb15Str": "",
+    "teamMeb16Name": "Tom",
+    "teamMeb16Str": "",
+    "teamMeb17Name": "Hannah",
+    "teamMeb17Str": "»Ein cooles Team + noch coolere Kinder = viele Gelegenheiten für beide was Neues zu lernen. Und es macht das Science Camp einfach zu einem meiner Lieblingsorte der Erde!«",
+    "teamMeb18Name": "Basti",
+    "teamMeb18Str": "",
+    "teamMeb19Name": "Jaromir",
+    "teamMeb19Str": "",
+    "teamMeb20Name": "Kathleena",
+    "teamMeb20Str": "»Science Camp ist wie Schule - nur interessanter und abwechslungsreicher. Hier kommt keine Langeweile auf!«",
+    "teamMeb21Name": "Robin",
+    "teamMeb21Str": "»Ich war schon als Kind beim Science Camp und wollte schon immer als Betreuer dabei sein.«",
+    "teamMeb22Name": "Madita",
+    "teamMeb22Str": "",
     //Mitarbeiten
     "teamworkHeader": "Mitarbeiten",
     "teamworkStr1": "Hast du Spaß an der Arbeit mit Kindern und Jugendlichen? Und Lust auf eine spassige und spannende Beschäftigung in den Ferien? Dann bist du bei uns richtig!",
@@ -120,6 +137,7 @@ var resources = {
     "contactContactMail": "kontakt@educatweb.de",
     "contactContactTel1": "0157 / 300 52 349 (Daniel Müller)",
     "contactContactTel2": "0162 / 134 8860 (Patric Garrels)",
+    "contactContactWebsite": "Webseite (Marcel Zeller)",
     "contactContactAddr": "Educat e.V.<br> Ostmarkstraße 13<br> 73312 Geislingen",
     "contactImprHeader": "Impressum",
     "contactImprStr1": "Angaben gemäß § 5 TMG:",
@@ -150,6 +168,8 @@ var resources = {
     "archiveSc10Name": "Weltall (2010)",
     "archiveSc10Str": "Im ersten Jahr beschäftigten wir uns mit der Welt der Sterne.",
     "archiveOcHeader": "Ostercamps und Herbstcamps",
+    "archiveOc19Name": "Ostercamp 2019 Frankreich",
+    "archiveOc19Str": "In der Woche vor Ostern fand unser Ostercamp im französischen Reillon in der Nähe von Nancy statt. Wir haben damit einen langen Wunsch erfüllt und erstmalig eine Veranstaltung außerhalb Deutschlands durchgeführt, gemeinsam mit Teilnehmern aus Frankreich. Neben vielen gemeinsamen Spielen wurde die Stadt Luneville besucht und verschiedene französische Gerichte gekocht.",
     "archiveOc18Name": "Ostercamp 2018",
     "archiveOc18Str": "Roboter mit Lego Mindstorms bauen und programmieren, Filtiere basteln und ein Ausflug ins Urgeschlichtliche Museum Blaubeuren und ins Bad Blau waren nur einige der spannenden Programmpunkte des Ostercamps 2018 in der Blauhütte bei Blaubeuren.",
     "archiveOc17Name": "Ostercamp 2017",
@@ -180,12 +200,14 @@ var resources = {
     //Ostercamp
     "ocHeader": "Ostercamp 2019",
     "ocItem1Header": "Leben morgen - Vivre demain",
-    "ocItem1Str1": "In diesem Jahr verwirklichen wir eines unserer länger ersehnten Vorhaben und reisen mit unserem Ostercamp nach Frankreich. Ziel ist ein kleines Dorf unweit von Lunéville. Thema ist dabei, wie könnte es anders sein, der Austausch zwischen beiden Ländern und beiden Sprachen. Keine Angst: Ihr müsst dazu kein Französisch können.",
-    "ocItem1Str2": "Es wird auch dieses Jahr wieder ganz unterschiedliche Workshops und Spiele geben. Wir haben vor Brot zu backen, eine Käserei zu besuchen und Dinge aus Holz zu basteln. Es wird einen Ausflug in die nächste Stadt geben und (wie jedes Jahr) gehen wir natürlich auch Schwimmen.",
-    "ocItem1Str3": "Aber natürlich wird der Austausch zwischen den beiden Sprachen Deutsch und Französisch unser großes Thema sein. Wir planen Spiele und Aktionen, bei denen man die andere Sprachen kennenlernt - Wir sind alle super gespannt, wie das wird!",
+    "ocItem1Str1": "In diesem Jahr verwirklichen wir eines unserer länger ersehnten Vorhaben und reisen mit unserem Ostercamp nach Frankreich. Ziel ist ein kleines Dorf unweit von Lunéville. Es geht, wie könnte es anders sein, um den Austausch zwischen beiden Ländern und beiden Sprachen. Aber keine Angst: Ihr müsst dazu kein Französisch können.",
+    "ocItem1Str2": "Uns wird auch das Thema »Leben morgen« begleiten, wir wollen uns Gedanken machen, wie die Zukunft aussehen kann und aussehen soll. Wir beschäftigen uns unter anderem mit Nachhaltigkeit, Herausforderungen und Wünschen.",
+    "ocItem1Str3": "Es wird auch dieses Jahr wieder ganz unterschiedliche Workshops und Spiele geben. Wir wollen Brot zu backen, eine Käserei besuchen, Dinge aus Holz basteln und etwas über erneuerbare Energien erfahren. Es wird einen Ausflug in die nächste Stadt geben und (wie jedes Jahr) gehen wir natürlich auch Schwimmen.",
+    "ocItem1Str4": "Aber natürlich wird der Austausch zwischen den beiden Sprachen Deutsch und Französisch unser großes Thema sein. Wir planen Spiele und Aktionen, bei denen man die andere Sprachen und die Kulturen kennenlernt - Wir sind alle super gespannt, wie das wird! Die Veranstaltung wird gefördert vom <a href='https://dfjw.org'>DFJW</a>.",
     "ocItem1StrU1": "Nous avons déjà fait de nombreux camps avec les enfants, en Allemagne. Nous rêvions de pouvoir partager 5 jours de camp avec des enfants français. Pour la première fois cette année, nous pourrons nous amuser, échanger et faire des sorties entre français et allemands. Si vous parlez quelques mots d'allemands c'est encore mieux, mais ne vous en faites pas il y a toujours moyens de se comprendre.",
     "ocItem1StrU2": "Comme les dernières années, il y aura des activités, des jeux et des ateliers thématiques. Nous avons prévu de préparer du pain, visiter une fromagerie et fabriquer des petits objets en bois. Il y aura aussi une excursion dans une ville voisine et comme chaque année, nous irons aussi à la piscine.",
-    "ocItem1StrU3": "Naturellement, il y aura aussi des échanges en allemand et en français à travers des jeux et des activités pour que chacun puisse se familiariser avec la langue de l’autre.",
+    "ocItem1StrU3": "Nous nous intéresserons au thème \"Vivre demain\", nous voulons réfléchir à quoi l'avenir pourrait ressembler",
+    "ocItem1StrU4": "Naturellement, il y aura aussi des échanges en allemand et en français à travers des jeux et des activités pour que chacun puisse se familiariser avec la langue de l’autre.",
     "ocItem2Header": "Wo - Où",
     "ocItem2Str1": "Das Ostercamp findet in Reillon in Frankreich statt. In dem winzigen Dorf gibt es ein schönes Seminarhaus. Reillon liegt in der Nähe der Städte Lunéville und Nancy.",
     "ocItem2Str2": "Weitere Informationen zum Haus: <a href='https://www.lacroiseedecouverte.fr/le-gite/'>https://lacroiseedecouverte.fr</a>",
@@ -205,8 +227,10 @@ var resources = {
     "ocItem5StrU2": "L’organisation est totalement bénévole et nous calculons le tarif au plus juste. Nous voulons la participation de tous, c’est pourquoi si le coût pose un problème, signalez le. D’autre part, vous pouvez compléter votre participation par un don afin d’encourager notre programme.",
     "ocItem5StrU3": "Le prix inclut le voyage, l’hébergement, l’alimentation, le matériel et les entrées lors des excursions.",
     "ocItem6Header": "Anmelden - S'inscrire",
-    "ocItem6Str1": "Für die Anmeldung füllen Sie bitte dieses <a href='./anmeldung.html'>Online-Formular</a> aus. Sollten Sie Fragen haben, können Sie uns über diese EMailadresse erreichen.",
+    "ocItem6Str1": "Für die Anmeldung füllen Sie bitte dieses <a href='./anmeldung.html'>Online-Formular</a> aus. Sollten Sie Fragen haben, können Sie uns über diese EMailadresse erreichen.<br><i>Wir müssen bereits jetzt eine Warteliste öffnen, da bereits alle Plätze belegt sind.</i>",
+    "ocItem6StrCurrent": "Das Interesse am Ostercamp ist wieder riesig, daher sind bereits jetzt alle Plätze belegt. Eine Anmeldung ist nicht mehr möglich. Wenn Sie in Zukunft per Mail von unseren Veranstaltungen erfahren möchten, können Sie sich für unseren <a href='/verein/newsletter.html'>Newsletter</a> anmelden.",
     "ocItem6StrU1": "Pour vous inscrire, veuillez remplir ce <a href='./anmeldungFr.html'>formulaire en ligne</a>. Si vous avez des questions, vous pouvez nous contacter via cette adresse email.",
+    "ocItem6StrUCurrent": "L'inscription est fermée.",
     "ocItem6Mail": "kontakt@educatweb.de",
     "ocItem7Header": "Sprache - Langue",
     "ocItem7Str1": "Die Kinder <b>müssen nicht</b> Französisch können! Wenn sie es bereits ein wenig gelernt haben oder es aus der Schule können, dann ist das sehr gut und sicher die beste Möglichkeit zu üben. Wir werden alle Aktionen so gestalten, dass man auch ohne Sprachkenntnisse einsteigen kann. Wir haben ein großes Team aus beiden Ländern, dass sich in beiden Sprachen verständigen kann. Wir sind sehr gespannt, wie die Kinder diese Herausforderung annehmen, sind aber sehr sicher, dass es allen Spaß machen wird!",
@@ -214,24 +238,24 @@ var resources = {
     "ocItemTeamHeader": "Das Team - L'équipe",
     "ocItem7Str": "Das Ostercamp 2018 ist auch schon wieder vorbei und wir haben 4 sehr spannende und schöne Tage auf der Blauhütte verbracht. Wir haben Roboter gebaut und programmiert, Filztiere gebastelt, eine kulinarische Reise unternommen und mit Becherlupen Tiere im Wald beobachtet. Auch ein Ausflug ins nahe Blaubeuren ins dortige Urgeschichtliche Museum und ins Bad Blau in Blaustein standen auf dem Programm. Weitere Bilder und Eindrücke finden sich auf unseren Social Media Seiten. Die Eltern der Teilnehmer haben außerdem eine Mail mit Links zu Bildern und einem Video erhalten.",
     //Ostercamp Anmeldung
-    "ocanmeldungHeader": "Anmeldung - Ostercamp 2019",
+    "ocanmeldungHeader": "Keine Anmeldung mehr möglich - Ostercamp 2019",
     "ocanmeldungItem1Str1": "Zur Anmeldung füllen Sie bitte dieses Formular aus. Sind die Daten erfolgreich bei uns eingegangen, wird eine automatische EMail an die angegebene Adresse verschickt. Aktualisieren Sie dazu ggf. ihren EMail-Ordner.",
     "ocanmeldungItem1Str2": "Vor der Freizeit versenden wir nochmals detaillierte Informationen zu Details, sowie der Bezahlung des Freizeitbeitrages. Bei Fragen sind wir selbstverständlich erreichbar (<a href=\"/kontakt.html\">Kontakt</a>).",
     "ocanmeldungFrHeader": "Inscription - Ostercamp 2019",
     "ocanmeldungItem1FrStr1": "Pour vous inscrire, veuillez remplir ce formulaire. Si les données sont envoyées avec succès, un mail sera automatiquement envoyé à l’adresse indiquée. Si nécessaire mettez à jour vos dossiers de messagerie.",
     "ocanmeldungItem1FrStr2": "Avant la rencontre, nous vous enverrons de nouveau un mail plus détaillé concernant la contribution pour le camp. Nous serons bien entendu disponibles pour toute question (<a href=\"/kontakt.html\">contact</a>).",
     //Science Camp
-    "scHeader": "Science Camp 2018",
-    "scItem1Str1": "Im Science Camp werden wir eine Reise um die Welt unternehmen. In allen Winkel der Erde haben sich die Menschen an ihre Umwelt angepasst. Sei es im Eis bei den Inuit oder bei den Aborigines in Australien. Was essen die Menschen dort, welche Geschichten erzählen sie sich und welche Spiele spielen sie?",
-    "scItem1Str2": "Erneut findet das Science Camp in Weiler bei Geislingen statt. Dort gibt es genügend Platz zum Bauen, Forschen und Spielen. Wie jedes Jahr gibt es Ausflüge, eine Übernachtung und alles andere, was das Science Camp so einmalig macht! Das Camp ist für Kinder und Jugendliche zwischen <b>5 und 14 Jahren</b> und findet vom <b>6. August bis 17. August</b> statt. Das Thema <b>\"Reise um die Welt\"</b> verspricht viel Spaß für Mädchen und Jungen gleichermaßen! Auch dieses Jahr ist die Freizeit wieder von der <b>Stiftung Kinderland Baden-Württemberg gefördert</b>.",
-    "scItem1Str3": "Erlebe ein unvergessliches Programm mit Musik, spannenden Spielen, einem tollen Team und garantiert jeder Menge Spaß.",
+    "scHeader": "Science Camp 2019",
+    "scItem1Str1": "Wie groß bist Du? Der Kopf einer Ameise ist nur zwei Millimeter groß und der nächste Stern fast vier Lichtjahre entfernt. Mit Zahlen kann man viel erklären: Ganz winzige und sehr große Dinge. Wieviele Sterne gibt es eigentlich? Wieviele Zahlen kennt ein Computer? Wie viel ist unendlich? Dieses Jahr geht es um Zahlen - und das alles ohne zu rechnen. Wir schauen uns Planeten und Galaxien an, basteln Spiele mit unseren Computern und es gibt wieder viel zum Erleben und Ausprobieren.",
+    "scItem1Str2": "Erneut findet das Science Camp in Weiler bei Geislingen statt. Dort gibt es genügend Platz zum Bauen, Forschen und Spielen. Das Camp ist für Kinder und Jugendliche zwischen <b>5 und 14 Jahren</b> und findet vom <b>12. August bis 23. August</b> statt. Das Thema <b>\"Von Null bis zur Unendlichkeit\"</b> verspricht viel Spaß für Mädchen und Jungen gleichermaßen! Auch dieses Jahr ist die Freizeit wieder von der <b>Stiftung Kinderland Baden-Württemberg</b> gefördert.",
+    "scItem1Str3": "Das Wichtigste bei uns im Science Camp sind natürlich jede Menge Spiele und spaßige Ideen. Zum Programm gehören auch dieses Jahr wieder eine gemeinsame Übernachtung, Ausflüge und vieles mehr. Daneben erwartet euch Musik, spannende Aktionen, ein tolles Team, viel Spaß und alles andere, was das Science Camp so einmalig macht.",
     "scItem1Str4": "Wir freuen uns, euch willkommen zu heißen!",
     "scItem2Header": "Wo",
     "scItem2Str": "Das Science Camp findet bei der Skihütte nahe Weiler statt. Diese liegt eingebettet zwischen zwei Wiesen, die Platz zum Bauen und Spielen bieten.",
     "scItem3Header": "Wer",
     "scItem3Str": "Teilnehmen können alle Kinder und Jugendlichen zwischen <strong>5 und 14 Jahren</strong>, wobei wir altersgerechte Angebote anbieten.<br/>Maximal werden wir 60 Teilnehmerinnen und Teilnehmer aufnehmen, wobei wir in Kooperation mit der Stiftung Kinderland einige Plätze für Kinder mit Fluchthintergrund anbieten.<br/>Egal ob Mädchen oder Jungs, älter oder jünger - wir bieten ein buntes Programm, bei dem für alle etwas dabei ist und es viele Auswahlmöglichkeiten gibt.",
     "scItem4Header": "Wann",
-    "scItem4Str": "Die Freizeit findet jeweils <strong>Montag bis Freitag, 6. bis 17. August 2018</strong> statt, jeweils von 9:30 Uhr bis 17:30 Uhr. Eine Teilnahme ist für eine oder zwei Wochen möglich.",
+    "scItem4Str": "Die Freizeit findet jeweils <strong>Montag bis Freitag, 12. bis 23. August 2018</strong> statt, jeweils von 9:30 Uhr bis 17:30 Uhr. Eine Teilnahme ist für eine oder zwei Wochen möglich.",
     "scItem5Header": "Kosten",
     "scItem5Str1": "Die gesamte Freizeit kostet <strong>110€</strong>.<br/>Im Preis sind sämtliche Kosten für das Programm, Essen, Trinken und die Ausflüge enthalten.",
     "scItem5Str2": "Nur eine Woche: 60€",
@@ -242,7 +266,7 @@ var resources = {
     "scItem6Header": "Anmelden",
     "scItem6Str1p1": "Die Anmeldung erfolgt über dieses",
     "scItem6Str1p2": "Online-Formular",
-    "scItem6Str1p3": "<i>Es sind bereits alle Plätze belegt, auch die Warteliste ist bereits gut gefüllt. Daher ist eine Anmeldung nicht mehr möglich.</i>",
+    "scItem6Str1p3": ". Die erste Anmeldephase ist vorbei. Weitere Anmeldungen können wir nur noch auf die Warteliste aufnehmen.<br>Hinweis an Anmeldungen von Flüchtlingskinder: Mit uns direkt abgesprochene Anmeldungen von Kindern mit Fluchthintergrund sind weiterhin möglich. Nehmen Sie gerne, falls noch nicht geschehen, Kontakt mit uns auf.",
     "scItem6Str2": "Vor der Freizeit versenden wir nochmals detaillierte Informationen zu Details, sowie der Bezahlung des Freizeitbeitrages. Bei Fragen sind wir selbstverständlich erreichbar.",
     "scItem6Str4": "Um zukünftig rechtzeitig über anstehende Veranstaltungen von uns zu wissen, können Sie sich für unseren <a href='/verein/newsletter.html'>Newsletter</a> anmelden.",
     "scItem6Mail": "kontakt@educatweb.de",
@@ -269,7 +293,7 @@ var resources = {
     "scinfoItem3Str3": "Alles, was mit unserem Thema zu tun hat, ist ebenso willkommen. Bücher und besondere Objekte sind immer eine Bereicherung. Achten Sie darauf, dass alle Gegenstände entweder mit Namen versehen sind oder kenntlich gemacht sind, sodass es zu keinen Verwechslungen kommt.",
     "scinfoItem4Header": "T-Shirts",
     "scinfoItem4Str1": "Es gibt T-Shirts zum Science Camp. Die Shirts sind fair gehandelt, haben eine gute Qualität und sind auf Schadstoffe geprüft. Wir lassen sie bei einem lokalen Anbieter bedrucken. Der Preis beträgt 8 Euro und sollte während der Freizeit bar bezahlt werden. Sie können vorbestellt werden oder noch während der Freizeit erworben werden (solange der Vorrat reicht).",
-    "scinfoItem4Str2": "Die Shirts sind türkis mit dem diesjährigen Science Camp Logo. Lieferbare Größen sind 116, 128, 140, 152, 164 sowie S, M, L, XL.",
+    "scinfoItem4Str2": "Die Shirts sind weinrot mit dem diesjährigen Science Camp Logo. Lieferbare Größen sind 116, 128, 140, 152, 164 sowie S, M, L, XL.",
     "scinfoItem5Header": "Übernachtung",
     "scinfoItem5Str1": "Sofern es das Wetter zulässt, bieten wir für die älteren Kinder eine Übernachtung an, meist einmal in der Woche Mittwochs oder Donnerstags. Wir geben Genaueres noch rechtzeitig bekannt.",
     "scinfoItem5Str2": "Für die Übernachtung werden benötigt: Isomatte, Schlafsack und Zahnputzzeug. Darüber hinaus können Kissen, Schlafanzug, Wechselkleidung und Stofftier ganz nützlich sein. Bitte beachten Sie jedoch, dass größere Mengen an Süßigkeiten, elektrische Geräte und ähnliches eher unangebracht sind (ggf. mit Absprache).",
@@ -280,9 +304,11 @@ var resources = {
     "scinfoItem7Str1": "Auch in diesem Jahr werden wir in der Freizeit Fotos machen. Diese sind zunächst nach der Freizeit auf dieser Seite mit einem Passwort zugänglich.",
     "scinfoItem7Str2": "Wir werden zudem auch einige Bilder veröffentlichen und ggf. weiterverwenden. Bitte geben Sie uns Bescheid, wenn einzelne Kinder nicht abgebildet werden sollen.",
     //Science Camp Anmeldung
-    "scanmeldungHeader": "Science Camp 2018 - Anmeldung",
-    "scanmeldungItem1Str1": "Zur Anmeldung füllen Sie bitte dieses Formular aus. Sind die Daten erfolgreich bei uns eingegangen, wird eine automatische EMail an die angegebene Adresse verschickt. Aktualisieren Sie dazu ggf. ihren EMail-Ordner. <br><i>Wir freuen uns, dass das Interesse am Science Camp so groß ist. Leider sind bereits alle Plätze voll. Wir schreiben alle weiteren Anmeldungen auf eine Warteliste und melden uns, falls noch ein Platz frei wird.</i>",
-    "scanmeldungItem1Str2": "Vor der Freizeit versenden wir nochmals detaillierte Informationen zu Details, sowie der Bezahlung des Freizeitbeitrages. Bei Fragen sind wir selbstverständlich erreichbar (<a href=\"/kontakt.html\">Kontakt</a>). Die Anmeldung ist zunächst bis <b>15. Mai</b> freigeschaltet.",
+    "scanmeldungHeader": "Science Camp 2019 - Anmeldung",
+    "scanmeldungItem1Str1": "Zur Anmeldung füllen Sie bitte dieses Formular aus. Sind die Daten erfolgreich bei uns eingegangen, wird eine automatische Eingangs-EMail an die angegebene Adresse verschickt. Aktualisieren Sie dazu ggf. ihren EMail-Ordner. Sollten Sie keine Eingangs-EMail erhalten, kontaktieren Sie uns unter <a href='mailto:anmeldung@educatweb.de?Subject=Science Camp 2019'>anmeldung@educatweb.de</a>.",
+    "scanmeldungItem1Str2": "Die Nachfrage nach unseren Veranstaltungen wächst immer weiter und wir freuen uns darüber. Leider können wir die verfügbaren Plätze nur begrenzt erhöhen. Die Anmeldung ist zunächst bis 20. April offen. Nach dieser Zeit werden wir etwa zwei Drittel der Plätze vergeben und diese auch bestätigen. Sollten wir auswählen müssen, werden wir u.a. darauf achten, dass das Verhältnis von Mädchen und Jungen passt und dass wir eine gute Altersdurchmischung haben. Wir werden alle darüber informieren, wie viele Teilnehmenden nach der Anmeldephase auf der Warteliste stehen und wie wir daher weitere Plätze vergeben. Wir danken für Ihr Verständnis.",
+    "scanmeldungItem1Str3": "Vor der Freizeit versenden wir nochmals detaillierte Informationen zu Details, sowie der Bezahlung des Freizeitbeitrages. Bei Fragen sind wir selbstverständlich erreichbar (<a href=\"/kontakt.html\">Kontakt</a>).",
+    "scanmeldungItem1Current": "Die Anmeldephase ist beendet, weitere Anmeldungen gibt es nur auf die Warteliste. Darüber werden Restplätze vergeben.",
     //Science Camp Bilder
     "scphotosHeader": "Bilder Science Camp",
     "scphotosStr": "Auf dieser Seite befinden sich alle Bilder vom Science Camp 2017. Auf diese Seite haben nur die Eltern der Teilnehmer sowie unser Betreuerteam Zugriff. Sie können die Bilder gerne für Ihren privaten Gebrauch einzeln oder als Archiv herunterladen. Wir werden einige Bilder veröffentlichen. Sollten Sie mit der Veröffentlichung einzelner Bilder, auf denen Ihre Kinder zu sehen sind, nicht einverstanden sein, teilen Sie uns dies bitte per Mail mit.",
@@ -340,8 +366,8 @@ var form = document.getElementById("signup");
 if (form != null) {
     form.addEventListener("submit", submitSignup, false);
     var moreSignup = document.getElementById("moreSignup");
-    moreSignup.removeEventListener("click", addSignupFieldOC);
-    moreSignup.addEventListener("click", addSignupFieldOC);
+    moreSignup.removeEventListener("click", addSignupField);
+    moreSignup.addEventListener("click", addSignupField);
     var numberOfAdds = 0;
 }
 
@@ -357,6 +383,11 @@ if (form != null) {
 var formNews = document.getElementById("newsletter");
 if (formNews != null) {
     formNews.addEventListener("submit", newsletterSignup, false);
+}
+
+var database = document.getElementById("databaseConnect");
+if (database != null) {
+    database.addEventListener("submit", callLagerDb, false);
 }
 
 
@@ -411,76 +442,6 @@ $(window).resize(function () {
     $("#mainInnerContainer").css("padding-top", navHeight);
     resizeSlickSlider();
 });
-
-function addPhotosToSlider() {
-    $.get("sc17Photos/Woche1/", function (data) {
-        var photos = $(".photos1");
-        var newPhotoUl = document.createElement("ul");
-        var imgs = new Array();
-        $(data).find("td > a").each(function () {
-            imgs.push($(this).attr("href"));
-        });
-
-        for (var i = 1; i < imgs.length; i++) {
-            var newPhotoLi = document.createElement("li");
-            var newPhoto = document.createElement("img");
-            newPhoto.setAttribute("src", "sc17Photos/Woche1/" + imgs[i]);
-            newPhotoLi.append(newPhoto);
-            newPhotoUl.append(newPhotoLi);
-        }
-        photos.append(newPhotoUl);
-
-        $(".photos1").tiksluscarousel({
-            width: 1000,
-            height: 500,
-            nav: 'thumbnails',
-            current: 1,
-            type: 'slide',
-            autoplayInterval: 10000
-        });
-        /*$('.photos1').slick({
-            "slidesToShow": 2,
-            "slidesToScroll": 1,
-            "focusOnSelect": true,
-            "infinite": false,
-            "adaptiveHeight": true
-        });*/
-    });
-
-    $.get("sc17Photos/Woche2/", function (data) {
-        var photos = $(".photos2");
-        var newPhotoUl = document.createElement("ul");
-        var imgs = new Array();
-        $(data).find("td > a").each(function () {
-            imgs.push($(this).attr("href"));
-        });
-
-        for (var i = 1; i < imgs.length; i++) {
-            var newPhotoLi = document.createElement("li");
-            var newPhoto = document.createElement("img");
-            newPhoto.setAttribute("src", "sc17Photos/Woche2/" + imgs[i]);
-            newPhotoLi.append(newPhoto);
-            newPhotoUl.append(newPhotoLi);
-        }
-        photos.append(newPhotoUl);
-
-        $(".photos2").tiksluscarousel({
-            width: 1000,
-            height: 500,
-            nav: 'thumbnails',
-            current: 1,
-            type: 'slide',
-            autoplayInterval: 10000
-        });
-        /*$('.slickphotos2').slick({
-            "slidesToShow": 2,
-            "slidesToScroll": 1,
-            "focusOnSelect": true,
-            "infinite": false,
-            "adaptiveHeight": true
-        });*/
-    });
-}
 
 function addSignupField() {
     var container = document.getElementById("moreInputContainer");
@@ -587,23 +548,23 @@ function submitSignup(event) {
     var data = getSignupData(0);
 
     //check if shuttle and earlybird is checked together
-    /*if (!validShuttleEarly(data.shuttle, data.fruehbetreuung)) {
+    if (!validShuttleEarly(data.shuttle, data.fruehbetreuung)) {
         if (document.getElementById("checkboxInvalid").classList.contains('hidden')) {
-            document.getElementById("checkboxInvalid").classList.remove('hidden');
-            return false;
+            document.getElementById("checkboxInvalid").classList.remove('hidden'); 
         }
+        return false;
     } else {
         if (!document.getElementById("checkboxInvalid").classList.contains('hidden')) {
             document.getElementById("checkboxInvalid").classList.add('hidden');
         }
-    }*/
+    }
 
     //check if mail is valid (most browsers check this by themself already)
     if (!validEmail(data.mail)) {
         if (document.getElementById("mailInvalid").classList.contains('hidden')) {
             document.getElementById("mailInvalid").classList.remove('hidden');
-            return false;
         }
+        return false;
     } else {
         if (!document.getElementById("mailInvalid").classList.contains('hidden')) {
             document.getElementById("mailInvalid").classList.add('hidden');
@@ -627,8 +588,8 @@ function submitSignup(event) {
         $.post("sendMail.php",
         {
             mail: data.mail,
-            subject: 'Anmeldung Ostercamp',
-            text: 'Guten Tag,\n\ndie Anmeldung für das Ostercamp 2019 für ' + children + ' ist bei uns eingegangen. Wir werden uns noch mit weiteren Informationen vor Beginn der Freizeit per E-Mail melden.\n\nViele Grüße,\ndas Educat Team'
+            subject: 'Anmeldung Science Camp',
+            text: 'Guten Tag,\n\ndie Anmeldung für das Science Camp 2019 für ' + children + ' ist bei uns eingegangen. Wir können diese Anmeldung nur noch auf der Warteliste aufnehmen. Sobald wir wissen, wie viele Plätze noch frei sind, melden wir uns per Mail.\n\nViele Grüße,\ndas Educat Team'
         },
         function () { });
 
@@ -875,16 +836,16 @@ function resizeSlickSlider() {
     $slickSlider.find('.slick-slide').css('height', slickTrackHeight + 'px');
 }
 
-function connectToDB() {
+function callLagerDb() {
     event.preventDefault();
-    var data = getSignupData(0);
+    var queryElements = document.getElementById("databaseConnect").elements;
 
-    $.post("db.php",
-        {
-            username: data.username,
-            password: data.password
-        },
-        function (data) {
-            
-        });
+    $.ajax({
+        type: "POST",
+        url: "database.php" ,
+        parameter: { item: queryElements["entry"].value, type: queryElements["type"].value, location: queryElements["location"].value },
+        success : function(response) { 
+            ('#results').append(response);
+        }
+    });
 }

@@ -7,11 +7,9 @@
 					<div class="row" id="contentContainer">
                         <div class="row">
 						    <div class="large-4 large-centered columns eventPageBig_item shadowSmall">
-							    <form id="databaseConnect" method="POST" action="javascript:connectToDB()">
-                                    <input name="username" type="text" placeholder="username" />
-                                    <input name="passowrd" type="password" placeholder="password" />
+							    <form id="databaseConnect" method="POST" action="">
                                     <label>Abfrage</label>
-                                    <input name="item" type="text" placeholder="Posten - * für alles" />
+                                    <input name="entry" type="text" placeholder="Posten - * für alles" />
                                     <label>Typ</label>
                                     <select name="type">
                                         <option value="all" selected="selected"></option>
@@ -38,10 +36,8 @@
                                     <input type="submit" value="Select" />
                                 </form>					
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="large-12 columns eventPageBig_item shadowSmall followingRow">
-                                <p id="sqlResult"></p>
+                            <div class="large-12 columns">
+                                <div id="results"></div>
                             </div>
                         </div>
                     </div>
